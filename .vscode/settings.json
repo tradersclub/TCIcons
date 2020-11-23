@@ -1,0 +1,12 @@
+{
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/lib": true,
+    },
+    "files.exclude": {
+        "**/node_modules": true,
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+}

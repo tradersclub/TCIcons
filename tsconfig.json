@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "ESNext",
+    "declaration": true,
+    "isolatedModules": true,
+    "outDir": "./lib",
+    "strict": true,
+    "jsx": "react-native",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "rootDir": "src",
+    "typeRoots": [
+      "node_modules/@types",
+    "src/@types"
+    ],
+    "types": [
+      "react",
+      "react-native"
+    ],
+    "lib": ["es6"],                             /* Specify library files to be included in the compilation. */
+    "sourceMap": true,                     /* Generates corresponding '.map' file. */
+    "composite": false,                     /* Enable project compilation */
+    "downlevelIteration": true,            /* Provide full support for iterables in 'for-of', spread, and destructuring when targeting 'ES5' or 'ES3'. */
+    /* Module Resolution Options */
+    "moduleResolution": "node",            /* Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6). */
+    "esModuleInterop": true,                  /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */
+    "experimentalDecorators": true,        /* Enables experimental support for ES7 decorators. */
+    "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
+
+    /* Advanced Options */
+    "forceConsistentCasingInFileNames": true  /* Disallow inconsistently-cased references to the same file. */,
+  },
+  "include": ["src", "src/**/*.svg"],
+  "exclude": ["node_modules", "**/__tests__/*", "metro.config.js", "babel.config.js"],
+}
