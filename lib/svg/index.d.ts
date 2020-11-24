@@ -15,6 +15,7 @@ export declare const box: string;
 export declare const btnLess: string;
 export declare const btnMore: string;
 export declare const cache: string;
+export declare const candles: string;
 export declare const cadeado: string;
 export declare const calendar: string;
 export declare const calendarAdd: string;
