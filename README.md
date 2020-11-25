@@ -5,7 +5,7 @@ Esse repositorio foi criado com o proposito de substituir temporariamente ou def
 ### Utilizando
 
 1- Instale a biblioteca `react-native-svg`  
-2- Importe um dos svgs (exemplo: `add`)
+2- Importe um dos svgs (exemplo: `add`)  
 3- Passge o svg como propriedade para o componente `SvgXml`da biblioteca `react-native-svg``  
 Exemplo:
 
@@ -57,7 +57,7 @@ Caso os icones que você acabou de gerar não vao para producão nesse momento, 
 ​
 
 1.  Insira o comando:
-    > yarn  && yarn build
+    > yarn && yarn build
     > git tag -a {Versão da sua tag ex.: v1.0.1} -m "Mensagem da sua tag"
 2.  Suba isso para o gitHub:
     > git push origin {Versão da sua tag inserida alteriormente}
