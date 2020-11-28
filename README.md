@@ -61,3 +61,10 @@ Caso os icones que você acabou de gerar não vao para producão nesse momento, 
     > git tag -a {Versão da sua tag ex.: v1.0.1} -m "Mensagem da sua tag"
 2.  Suba isso para o gitHub:
     > git push origin {Versão da sua tag inserida alteriormente}
+
+### Autores e Contribuidores
+
+Arthur Geron - Desenvolvedor Front-End
+Patrick Chagas - Desenvolvedor Full-Stack
+
+Todos do time Designer são contribuidores e graças a eles tem esses icones top
