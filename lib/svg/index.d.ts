@@ -99,6 +99,8 @@ export declare const icCentralAjuda: string;
 export declare const icPause: string;
 export declare const icPlay: string;
 export declare const icoCarteira: string;
+export declare const ideasEmptyStateFollowing: string;
+export declare const ideasEmptyStateMasterRequired: string;
 export declare const image: string;
 export declare const lamp: string;
 export declare const left: string;
