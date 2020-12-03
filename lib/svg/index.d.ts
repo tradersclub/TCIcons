@@ -5,7 +5,6 @@ export declare const bag: string;
 export declare const bagMoney: string;
 export declare const bagMoneyBlack: string;
 export declare const bagWhiteLineBlue: string;
-export declare const bars: string;
 export declare const bell: string;
 export declare const bellAdd: string;
 export declare const bellBlock: string;
