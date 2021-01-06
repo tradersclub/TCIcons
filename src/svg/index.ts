@@ -1,6 +1,22 @@
 import _add from './add.svg';
 import _advance from './advance.svg';
+import _alert from './alert.svg';
 import _arroba from './arroba.svg';
+import _arrowAngleContract from './arrow-angle-contract.svg'
+import _arrowAngleExpand from './arrow-angle-expand.svg'
+import _arrowBack from './arrow-back.svg'
+import _arrowBoxExternalLink from './arrow-box-external-link.svg'
+import _arrowExternalLink from './arrow-external-link.svg'
+import _arrowLargeDown from './arrow-large-down.svg'
+import _arrowLargeLeft from './arrow-large-left.svg'
+import _arrowLargeRight from './arrow-large-right.svg'
+import _arrowLargeUp from './arrow-large-up.svg'
+import _arrowPageLeft from './arrowPageLeft.svg'
+import _arrowPageRight from './arrowPageRight.svg'
+import _arrowSmallDown from './arrowSmallDown.svg'
+import _arrowSmallLeft from './arrowSmallLeft.svg'
+import _arrowSmallRight from './arrowSmallRight.svg'
+import _arrowSmallUp from './arrowSmallUp.svg'
 import _bag from './bag.svg';
 import _bagMoney from './bag-money.svg';
 import _bagMoneyBlack from './bag-money-black.svg';
@@ -36,6 +52,8 @@ import _checkmark from './checkmark.svg';
 import _checkmarkSelected from './checkmark-selected.svg';
 import _circleDown from './circle-down.svg';
 import _circleMore from './circle-more.svg';
+import _circleMinus from './circle-minus.svg';
+import _circlePlus from './circle-plus.svg';
 import _clipboardChart from './clipboard-chart.svg';
 import _clips from './clips.svg';
 import _clock from './clock.svg';
@@ -84,7 +102,9 @@ import _emojiHearth from './emoji-hearth.svg';
 import _emojiLamp from './emoji-lamp.svg';
 import _emoticonAdd from './emoticon-add.svg';
 import _externalLink from './external-link.svg';
+import _fileEmpty from './file-empty.svg';
 import _filePeople from './file-people.svg';
+import _fileText from './fileText.svg';
 import _folder from './folder.svg';
 import _funnel from './funnel.svg';
 import _grid from './grid.svg';
@@ -243,6 +263,8 @@ import _terminalRelatorio from './terminal-relatorio.svg';
 import _terminalTrad3 from './terminal-trad3.svg';
 import _terminalTradeIdeas from './terminal-trade-ideas.svg';
 import _terminalVideos from './terminal-videos.svg';
+import _thumbDown from './thumb-down.svg';
+import _thumbUp from './thumb-up.svg';
 import _trad3 from './trad3.svg';
 import _trash from './trash.svg';
 import _trophy from './trophy.svg';
@@ -253,7 +275,23 @@ import _zoomOut from './zoom-out.svg';
 
 export const add = _add;
 export const advance = _advance;
+export const alert = _alert;
 export const arroba = _arroba;
+export const arrowAngleContrac = _arrowAngleContract
+export const arrowAngleExpand = _arrowAngleExpand
+export const arrowBack = _arrowBack
+export const arrowBoxExternalLink = _arrowBoxExternalLink
+export const arrowExternalLink = _arrowExternalLink
+export const arrowLargeDown = _arrowLargeDown
+export const arrowLargeLeft = _arrowLargeLeft
+export const arrowLargeRight = _arrowLargeRight
+export const arrowLargeUp = _arrowLargeUp
+export const arrowPageLeft = _arrowPageLeft
+export const arrowPageRight = _arrowPageRight
+export const arrowSmallDown = _arrowSmallDown
+export const arrowSmallLeft = _arrowSmallLeft
+export const arrowSmallRight = _arrowSmallRight
+export const arrowSmallUp = _arrowSmallUp
 export const bag = _bag;
 export const bagMoney = _bagMoney;
 export const bagMoneyBlack = _bagMoneyBlack;
@@ -289,6 +327,8 @@ export const checkmark = _checkmark;
 export const checkmarkSelected = _checkmarkSelected;
 export const circleDown = _circleDown;
 export const circleMore = _circleMore;
+export const circleMinus = _circleMinus;
+export const circlePlus = _circlePlus;
 export const clipboardChart = _clipboardChart;
 export const clips = _clips;
 export const clock = _clock;
@@ -337,7 +377,9 @@ export const emojiHearth = _emojiHearth;
 export const emojiLamp = _emojiLamp;
 export const emoticonAdd = _emoticonAdd;
 export const externalLink = _externalLink;
+export const fileEmpty = _fileEmpty;
 export const filePeople = _filePeople;
+export const fileText = _fileText;
 export const folder = _folder;
 export const funnel = _funnel;
 export const grid = _grid;
@@ -496,6 +538,8 @@ export const terminalRelatorio = _terminalRelatorio;
 export const terminalTrad3 = _terminalTrad3;
 export const terminalTradeIdeas = _terminalTradeIdeas;
 export const terminalVideos = _terminalVideos;
+export const thumbDown = _thumbDown;
+export const thumbUp = _thumbUp;
 export const trad3 = _trad3;
 export const trash = _trash;
 export const trophy = _trophy;
