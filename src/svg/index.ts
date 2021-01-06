@@ -102,7 +102,7 @@ import _emojiHearth from './emoji-hearth.svg';
 import _emojiLamp from './emoji-lamp.svg';
 import _emoticonAdd from './emoticon-add.svg';
 import _externalLink from './external-link.svg';
-import _fileEmpty from './firle-empty.svg';
+import _fileEmpty from './file-empty.svg';
 import _filePeople from './file-people.svg';
 import _fileText from './fileText.svg';
 import _folder from './folder.svg';
