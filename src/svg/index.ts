@@ -2,21 +2,21 @@ import _add from './add.svg';
 import _advance from './advance.svg';
 import _alert from './alert.svg';
 import _arroba from './arroba.svg';
-import _arrowAngleContract from './arrow-angle-contract.svg'
-import _arrowAngleExpand from './arrow-angle-expand.svg'
-import _arrowBack from './arrow-back.svg'
-import _arrowBoxExternalLink from './arrow-box-external-link.svg'
-import _arrowExternalLink from './arrow-external-link.svg'
-import _arrowLargeDown from './arrow-large-down.svg'
-import _arrowLargeLeft from './arrow-large-left.svg'
-import _arrowLargeRight from './arrow-large-right.svg'
-import _arrowLargeUp from './arrow-large-up.svg'
-import _arrowPageLeft from './arrowPageLeft.svg'
-import _arrowPageRight from './arrowPageRight.svg'
-import _arrowSmallDown from './arrowSmallDown.svg'
-import _arrowSmallLeft from './arrowSmallLeft.svg'
-import _arrowSmallRight from './arrowSmallRight.svg'
-import _arrowSmallUp from './arrowSmallUp.svg'
+import _arrowAngleContract from './arrow-angle-contract.svg';
+import _arrowAngleExpand from './arrow-angle-expand.svg';
+import _arrowBack from './arrow-back.svg';
+import _arrowBoxExternalLink from './arrow-box-external-link.svg';
+import _arrowExternalLink from './arrow-external-link.svg';
+import _arrowLargeDown from './arrow-large-down.svg';
+import _arrowLargeLeft from './arrow-large-left.svg';
+import _arrowLargeRight from './arrow-large-right.svg';
+import _arrowLargeUp from './arrow-large-up.svg';
+import _arrowPageLeft from './arrowPageLeft.svg';
+import _arrowPageRight from './arrowPageRight.svg';
+import _arrowSmallDown from './arrowSmallDown.svg';
+import _arrowSmallLeft from './arrowSmallLeft.svg';
+import _arrowSmallRight from './arrowSmallRight.svg';
+import _arrowSmallUp from './arrowSmallUp.svg';
 import _bag from './bag.svg';
 import _bagMoney from './bag-money.svg';
 import _bagMoneyBlack from './bag-money-black.svg';
@@ -104,7 +104,7 @@ import _emoticonAdd from './emoticon-add.svg';
 import _externalLink from './external-link.svg';
 import _fileEmpty from './file-empty.svg';
 import _filePeople from './file-people.svg';
-import _fileText from './fileText.svg';
+import _fileText from './file-text.svg';
 import _folder from './folder.svg';
 import _funnel from './funnel.svg';
 import _grid from './grid.svg';
@@ -219,6 +219,7 @@ import _tcIconsTrash from './tc-icons-trash.svg';
 import _tcIconsUser from './tc-icons-user.svg';
 import _tcIconsWealth from './tc-icons-wealth.svg';
 import _tcMatrix from './tc-matrix.svg';
+import _tcMarkerDown from './tc-marker-down.svg';
 import _tcSmallArrow from './tc-small-arrow.svg';
 import _tcSmallBack from './tc-small-back.svg';
 import _tcSmallCheck from './tc-small-check.svg';
@@ -277,21 +278,21 @@ export const add = _add;
 export const advance = _advance;
 export const alert = _alert;
 export const arroba = _arroba;
-export const arrowAngleContrac = _arrowAngleContract
-export const arrowAngleExpand = _arrowAngleExpand
-export const arrowBack = _arrowBack
-export const arrowBoxExternalLink = _arrowBoxExternalLink
-export const arrowExternalLink = _arrowExternalLink
-export const arrowLargeDown = _arrowLargeDown
-export const arrowLargeLeft = _arrowLargeLeft
-export const arrowLargeRight = _arrowLargeRight
-export const arrowLargeUp = _arrowLargeUp
-export const arrowPageLeft = _arrowPageLeft
-export const arrowPageRight = _arrowPageRight
-export const arrowSmallDown = _arrowSmallDown
-export const arrowSmallLeft = _arrowSmallLeft
-export const arrowSmallRight = _arrowSmallRight
-export const arrowSmallUp = _arrowSmallUp
+export const arrowAngleContrac = _arrowAngleContract;
+export const arrowAngleExpand = _arrowAngleExpand;
+export const arrowBack = _arrowBack;
+export const arrowBoxExternalLink = _arrowBoxExternalLink;
+export const arrowExternalLink = _arrowExternalLink;
+export const arrowLargeDown = _arrowLargeDown;
+export const arrowLargeLeft = _arrowLargeLeft;
+export const arrowLargeRight = _arrowLargeRight;
+export const arrowLargeUp = _arrowLargeUp;
+export const arrowPageLeft = _arrowPageLeft;
+export const arrowPageRight = _arrowPageRight;
+export const arrowSmallDown = _arrowSmallDown;
+export const arrowSmallLeft = _arrowSmallLeft;
+export const arrowSmallRight = _arrowSmallRight;
+export const arrowSmallUp = _arrowSmallUp;
 export const bag = _bag;
 export const bagMoney = _bagMoney;
 export const bagMoneyBlack = _bagMoneyBlack;
@@ -494,6 +495,7 @@ export const tcIconsTrash = _tcIconsTrash;
 export const tcIconsUser = _tcIconsUser;
 export const tcIconsWealth = _tcIconsWealth;
 export const tcMatrix = _tcMatrix;
+export const tcMarkerDown = _tcMarkerDown;
 export const tcSmallArrow = _tcSmallArrow;
 export const tcSmallBack = _tcSmallBack;
 export const tcSmallCheck = _tcSmallCheck;
