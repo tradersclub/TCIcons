@@ -104,7 +104,7 @@ import _emoticonAdd from './emoticon-add.svg';
 import _externalLink from './external-link.svg';
 import _fileEmpty from './file-empty.svg';
 import _filePeople from './file-people.svg';
-import _fileText from './fileText.svg';
+import _fileText from './file-text.svg';
 import _folder from './folder.svg';
 import _funnel from './funnel.svg';
 import _grid from './grid.svg';
