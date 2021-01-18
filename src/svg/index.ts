@@ -288,7 +288,7 @@ import _zoomOut from './zoom-out.svg';
 export const add = _add;
 export const advance = _advance;
 export const alert = _alert;
-export const alertFill = _alertFill
+export const alertFill = _alertFill;
 export const arroba = _arroba;
 export const arrowAngleContrac = _arrowAngleContract;
 export const arrowAngleExpand = _arrowAngleExpand;
