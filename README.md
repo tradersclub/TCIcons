@@ -15,8 +15,10 @@ npm: npm install https://github.com/tradersclub/TCIcons.git#v0.1.0 (Olhar no rep
 ### Install - React-Native
 ```
 yarn: yarn add react-native-svg react-native-svg-transformer babel-plugin-inline-import
+yarn: yarn add https://github.com/tradersclub/TCIcons.git#v0.1.0 (Olhar no repo a ultima tag)
 
 npm: npm install react-native-svg react-native-svg-transformer babel-plugin-inline-import
+npm: npm install https://github.com/tradersclub/TCIcons.git#v0.1.0 (Olhar no repo a ultima tag)
 ```
 ### Upgrade file metro.config.js - React-Native
 ```
