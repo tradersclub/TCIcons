@@ -50,6 +50,20 @@ module.exports = (async () => {
 })();
 ```
 
+### Upgrade file of .babelrc - React-Native
+```
+...
+  "plugins": [
+    [...],
+    [
+      "babel-plugin-inline-import",
+      {
+        "extensions": [".svg"]
+      }
+    ]
+...
+```
+
 
 2- Importe um dos svgs (exemplo: `add`)  
 3- Passge o svg como propriedade para o componente `SvgXml`da biblioteca `react-native-svg``  
