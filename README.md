@@ -70,13 +70,13 @@ module.exports = (async () => {
 Exemplo:
 
 ```
-import { SvgXml } from 'react-native-svg';
+import { SvgFromXml } from 'react-native-svg';
 import { add } from 'tc-svg';
 ​
 export default function Componente(){
 ​
     return(
-        <SvgXml
+        <SvgFromXml
             width={100}
             height={100}
             fill={'#faf'}
