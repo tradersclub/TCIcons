@@ -184,6 +184,7 @@ export declare const starWhite: string;
 export declare const starYellowBlue: string;
 export declare const starYellowGrey: string;
 export declare const starYellowWhite: string;
+export declare const suitabilityTest: string;
 export declare const tcBlueDark: string;
 export declare const tcBlueGrey: string;
 export declare const tcBlueWhite: string;
