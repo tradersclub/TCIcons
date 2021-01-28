@@ -133,6 +133,7 @@ export declare const lamp: string;
 export declare const left: string;
 export declare const link: string;
 export declare const list: string;
+export declare const megaphone: string;
 export declare const menu: string;
 export declare const microphone: string;
 export declare const moderadorBlue: string;
