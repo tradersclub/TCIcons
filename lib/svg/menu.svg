@@ -1,1 +1,5 @@
-<svg id="Camada_1" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>menu</title><path d="M3.66842,6.17789H20.3318a.81244.81244,0,0,0,0-1.62487H3.66842a.81244.81244,0,0,0,0,1.62487Z"/><path d="M20.3318,11.18756H3.66842a.81244.81244,0,0,0,0,1.62488H20.3318a.81244.81244,0,0,0,0-1.62488Z"/><path d="M20.3318,17.82211H3.66842a.81244.81244,0,0,0,0,1.62487H20.3318a.81244.81244,0,0,0,0-1.62487Z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" viewBox="0 0 32 32">
+  <g class="menu">
+    <path  fill-rule="evenodd" d="M5 8a1 1 0 011-1h20a1 1 0 110 2H6a1 1 0 01-1-1zm0 8a1 1 0 011-1h20a1 1 0 110 2H6a1 1 0 01-1-1zm1 7a1 1 0 100 2h20a1 1 0 100-2H6z" class="Mask" clip-rule="evenodd"/>
+  </g>
+</svg>
