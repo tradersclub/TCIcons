@@ -1,11 +1,17 @@
 {
-    "name": "tc-svg",
-    "version": "0.0.2",
+    "name": "@tradersclub/tc-svg",
+    "version": "0.2.8",
     "description": "Esse projeto tem como objetivo abertura dos svg`s",
     "author": "Tradersclub",
     "license": "MIT",
     "main": "lib/index.js",
     "typings": "lib/index.d.ts",
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    },
+    "repository": {
+        "url": "git://github.com/tradersclub/TCIcons.git"
+    },
     "scripts": {
         "lint": "./node_modules/.bin/eslint '*/**/*.{js,ts,tsx}' ",
         "build": "rm -rf ./lib && tsc && cp ./src/svg/*.svg ./lib/svg"
