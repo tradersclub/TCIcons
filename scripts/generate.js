@@ -34,16 +34,19 @@ for (file of files) {
     const name = camelize(file.replace('.svg', ''));
     content = applyReplace(content);
 
-    const component = `import * as React from 'react';
-export default function ${name} (props) {
-  return (
-    ${content}
-  );
-}
-`;
+    const component = `
+        import * as React from 'react';
+        const ${name} = (props) => {
+            return (
+                ${content}
+            );
+        }
+        export default ${name}
+    `;
+    
     indexFile += `
-export * from './${name}.js';
-`;
+        export * from './${name}.js';
+    `;
 
     writeFileSync(`${process.cwd()}/src/components/${name}.js`, component);
 }
