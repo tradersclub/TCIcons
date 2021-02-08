@@ -14,7 +14,7 @@
     },
     "scripts": {
         "lint": "./node_modules/.bin/eslint '*/**/*.{js,ts,tsx}' ",
-        "build": "rm -rf ./lib && tsc && cp ./src/svg/*.svg ./lib/svg"
+        "build": "bash scripts/build.sh"
     },
     "husky": {
         "hooks": {
