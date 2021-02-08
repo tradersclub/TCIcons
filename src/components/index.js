@@ -392,6 +392,8 @@
     
         export * from './Store.js';
     
+        export * from './SuitabilityTestResult.js';
+    
         export * from './SuitabilityTest.js';
     
         export * from './Support.js';
