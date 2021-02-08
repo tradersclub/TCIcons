@@ -1,14 +1,9 @@
 import * as React from 'react';
+export default function DrawText (props) {
+  return (
+    <svg width={props.width} height={props.height} viewBox="0 0 32 32" fill={props.color} xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6 6C6 5.44772 6.44772 5 7 5H16H25C25.5523 5 26 5.44772 26 6V8C26 8.55228 25.5523 9 25 9C24.4477 9 24 8.55228 24 8V7H17V25H18C18.5523 25 19 25.4477 19 26C19 26.5523 18.5523 27 18 27H16H14C13.4477 27 13 26.5523 13 26C13 25.4477 13.4477 25 14 25H15V7H8V8C8 8.55228 7.55228 9 7 9C6.44772 9 6 8.55228 6 8V6Z" />
+</svg>
 
-function SvgDrawText() {
-    return (
-        <svg width="1em" height="1em" viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                clipRule="evenodd"
-                d="M6 6a1 1 0 011-1h18a1 1 0 011 1v2a1 1 0 11-2 0V7h-7v18h1a1 1 0 110 2h-4a1 1 0 110-2h1V7H8v1a1 1 0 01-2 0V6z"
-            />
-        </svg>
-    );
-}
-
-export default SvgDrawText;
+  )
+};

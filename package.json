@@ -14,8 +14,7 @@
     },
     "scripts": {
         "lint": "./node_modules/.bin/eslint '*/**/*.{js,ts,tsx}' ",
-        "build": "rm -rf ./lib && tsc && cp ./src/svg/*.svg ./lib/svg",
-        "generate:svg": "npx @svgr/cli src/svg --config-file svgr.config.js -d src/components"
+        "build": "bash scripts/build.sh"
     },
     "husky": {
         "hooks": {
@@ -31,8 +30,5 @@
         "husky": "4.3.0",
         "prettier": "^2.2.0",
         "typescript": "4.1.2"
-    },
-    "dependencies": {
-        "@svgr/cli": "^5.5.0"
     }
 }

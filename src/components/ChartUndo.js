@@ -1,14 +1,9 @@
 import * as React from 'react';
+export default function ChartUndo (props) {
+  return (
+    <svg width={props.width} height={props.height} viewBox="0 0 32 32" fill={props.color} xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M11.7071 7.29289C12.0976 7.68342 12.0976 8.31658 11.7071 8.70711L7.41421 13L19 13C23.9706 13 28 17.0294 28 22V24C28 24.5523 27.5523 25 27 25C26.4477 25 26 24.5523 26 24V22C26 18.134 22.866 15 19 15L7.41421 15L11.7071 19.2929C12.0976 19.6834 12.0976 20.3166 11.7071 20.7071C11.3166 21.0976 10.6834 21.0976 10.2929 20.7071L4.29289 14.7071C4.10536 14.5196 4 14.2652 4 14C4 13.7348 4.10536 13.4804 4.29289 13.2929L10.2929 7.29289C10.6834 6.90237 11.3166 6.90237 11.7071 7.29289Z" />
+</svg>
 
-function SvgChartUndo() {
-    return (
-        <svg width="1em" height="1em" viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path
-                clipRule="evenodd"
-                d="M11.707 7.293a1 1 0 010 1.414L7.414 13H19a9 9 0 019 9v2a1 1 0 11-2 0v-2a7 7 0 00-7-7H7.414l4.293 4.293a1 1 0 01-1.414 1.414l-6-6a1 1 0 010-1.414l6-6a1 1 0 011.414 0z"
-            />
-        </svg>
-    );
-}
-
-export default SvgChartUndo;
+  )
+};
