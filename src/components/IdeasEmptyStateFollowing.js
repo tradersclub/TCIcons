@@ -1,7 +1,8 @@
-import * as React from 'react';
-export default function IdeasEmptyStateFollowing (props) {
-  return (
-    <svg width="166" height="115" viewBox="0 0 166 115" fill={props.color} xmlns="http://www.w3.org/2000/svg">
+
+        import * as React from 'react';
+        const IdeasEmptyStateFollowing = (props) => {
+            return (
+                <svg width="166" height="115" viewBox="0 0 166 115" fill={props.color} xmlns="http://www.w3.org/2000/svg">
 <path opacity="0.5" d="M45.7256 23.4551C45.7256 10.5012 56.2117 0 69.147 0H141.961C154.897 0 165.383 10.5012 165.383 23.4551V91.2143C165.383 104.168 154.897 114.669 141.961 114.669H69.147C56.2117 114.669 45.7256 104.168 45.7256 91.2143V23.4551Z" fill="#E9EEF8"/>
 <path d="M1.0752 24.5627C1.0752 18.8054 5.73569 14.1382 11.4847 14.1382H135.748C141.497 14.1382 146.158 18.8054 146.158 24.5627V92.3218C146.158 98.0791 141.497 102.746 135.748 102.746H11.4847C5.73569 102.746 1.0752 98.0791 1.0752 92.3218V24.5627Z" fill="white"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M0.619141 24.5627C0.619141 18.5535 5.48353 13.6821 11.4841 13.6821H135.748C141.748 13.6821 146.613 18.5535 146.613 24.5627V92.3219C146.613 98.331 141.748 103.202 135.748 103.202H11.4841C5.48353 103.202 0.619141 98.331 0.619141 92.3219V24.5627ZM11.4841 14.5943C5.98657 14.5943 1.52997 19.0573 1.52997 24.5627V92.3219C1.52997 97.8273 5.98657 102.29 11.4841 102.29H135.748C141.245 102.29 145.702 97.8273 145.702 92.3219V24.5627C145.702 19.0573 141.245 14.5943 135.748 14.5943H11.4841Z" fill="#3F5DD7"/>
@@ -45,5 +46,7 @@ export default function IdeasEmptyStateFollowing (props) {
 <path d="M99.7715 39.1902V39.6448" stroke="#F76E2B" stroke-width="1.5" stroke-linecap="round"/>
 </svg>
 
-  );
-}
+            );
+        }
+        export default IdeasEmptyStateFollowing
+    

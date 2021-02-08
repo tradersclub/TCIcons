@@ -1,7 +1,8 @@
-import * as React from 'react';
-export default function Index.ts (props) {
-  return (
-    import _alert from './alert.svg';
+
+        import * as React from 'react';
+        const Index.ts = (props) => {
+            return (
+                import _alert from './alert.svg';
 import _alertFill from './alert-fill.svg';
 import _arrowAngleContract from './arrow-angle-contract.svg';
 import _arrowAngleExpand from './arrow-angle-expand.svg';
@@ -411,5 +412,7 @@ export const video = _video;
 export const voucher = _voucher;
 export const wealth = _wealth;
 
-  );
-}
+            );
+        }
+        export default Index.ts
+    

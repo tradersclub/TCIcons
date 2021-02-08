@@ -1,7 +1,8 @@
-import * as React from 'react';
-export default function SuitabilityTest (props) {
-  return (
-    <svg width="160" height="131" viewBox="0 0 160 131" fill={props.color} xmlns="http://www.w3.org/2000/svg">
+
+        import * as React from 'react';
+        const SuitabilityTest = (props) => {
+            return (
+                <svg width="160" height="131" viewBox="0 0 160 131" fill={props.color} xmlns="http://www.w3.org/2000/svg">
 <path opacity="0.5" d="M0 22.5C0 10.0736 10.078 0 22.5098 0H92.4902C104.922 0 115 10.0736 115 22.5V87.5C115 99.9264 104.922 110 92.4902 110H22.5098C10.078 110 0 99.9264 0 87.5V22.5Z" fill="#E9EEF8"/>
 <path opacity="0.5" d="M81 70.5455C81 61.9599 87.9231 55 96.4632 55H144.537C153.077 55 160 61.9599 160 70.5455V115.455C160 124.04 153.077 131 144.537 131H96.4633C87.9231 131 81 124.04 81 115.455V70.5455Z" fill="#E9EEF8"/>
 <circle cx="80.7324" cy="65.7324" r="32.7324" fill="white" stroke="#4364E8" stroke-width="2"/>
@@ -24,5 +25,7 @@ export default function SuitabilityTest (props) {
 <path d="M119.691 43.0917L119.701 43.1013" stroke="#4364E8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 
-  );
-}
+            );
+        }
+        export default SuitabilityTest
+    
