@@ -7,5 +7,5 @@ export default function Users (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

@@ -7,5 +7,5 @@ export default function Speakerphone (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

@@ -7,5 +7,5 @@ export default function PatchCheck (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

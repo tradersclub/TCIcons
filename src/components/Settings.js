@@ -7,5 +7,5 @@ export default function Settings (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

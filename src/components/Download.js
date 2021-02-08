@@ -7,5 +7,5 @@ export default function Download (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

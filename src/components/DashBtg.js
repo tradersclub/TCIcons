@@ -7,5 +7,5 @@ export default function DashBtg (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

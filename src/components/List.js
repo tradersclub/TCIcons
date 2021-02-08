@@ -7,5 +7,5 @@ export default function List (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

@@ -7,5 +7,5 @@ export default function LoadingDefault (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

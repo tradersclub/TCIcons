@@ -411,5 +411,5 @@ export const video = _video;
 export const voucher = _voucher;
 export const wealth = _wealth;
 
-  )
-};
+  );
+}

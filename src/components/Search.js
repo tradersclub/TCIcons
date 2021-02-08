@@ -7,5 +7,5 @@ export default function Search (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

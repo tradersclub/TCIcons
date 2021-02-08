@@ -7,5 +7,5 @@ export default function Minimize (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

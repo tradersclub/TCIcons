@@ -7,5 +7,5 @@ export default function GripVerticalPoint (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

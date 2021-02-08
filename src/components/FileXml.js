@@ -11,5 +11,5 @@ export default function FileXml (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

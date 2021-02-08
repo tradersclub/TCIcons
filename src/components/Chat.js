@@ -7,5 +7,5 @@ export default function Chat (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

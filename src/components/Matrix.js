@@ -7,5 +7,5 @@ export default function Matrix (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

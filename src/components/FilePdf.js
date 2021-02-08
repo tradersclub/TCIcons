@@ -11,5 +11,5 @@ export default function FilePdf (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

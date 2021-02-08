@@ -7,5 +7,5 @@ export default function Bag (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

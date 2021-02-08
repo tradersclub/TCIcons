@@ -7,5 +7,5 @@ export default function Check (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

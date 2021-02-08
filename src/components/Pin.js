@@ -7,5 +7,5 @@ export default function Pin (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

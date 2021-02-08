@@ -45,5 +45,5 @@ export default function IdeasEmptyStateFollowing (props) {
 <path d="M99.7715 39.1902V39.6448" stroke="#F76E2B" stroke-width="1.5" stroke-linecap="round"/>
 </svg>
 
-  )
-};
+  );
+}

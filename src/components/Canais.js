@@ -7,5 +7,5 @@ export default function Canais (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

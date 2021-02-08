@@ -7,5 +7,5 @@ export default function Revert (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

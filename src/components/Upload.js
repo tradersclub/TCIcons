@@ -7,5 +7,5 @@ export default function Upload (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

@@ -7,5 +7,5 @@ export default function Indicator (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

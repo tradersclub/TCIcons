@@ -7,5 +7,5 @@ export default function ChartBoard (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

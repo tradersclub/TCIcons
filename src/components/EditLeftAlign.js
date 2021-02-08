@@ -7,5 +7,5 @@ export default function EditLeftAlign (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

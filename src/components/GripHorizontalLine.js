@@ -7,5 +7,5 @@ export default function GripHorizontalLine (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

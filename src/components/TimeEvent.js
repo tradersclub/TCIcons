@@ -7,5 +7,5 @@ export default function TimeEvent (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

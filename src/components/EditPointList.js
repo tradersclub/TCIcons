@@ -7,5 +7,5 @@ export default function EditPointList (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

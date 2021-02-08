@@ -11,5 +11,5 @@ export default function FilePpt (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

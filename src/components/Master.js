@@ -8,5 +8,5 @@ export default function Master (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

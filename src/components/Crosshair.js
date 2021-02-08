@@ -7,5 +7,5 @@ export default function Crosshair (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

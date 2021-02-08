@@ -7,5 +7,5 @@ export default function Notification (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

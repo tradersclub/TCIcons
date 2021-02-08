@@ -7,5 +7,5 @@ export default function EditQuoteMark (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

@@ -24,5 +24,5 @@ export default function SuitabilityTest (props) {
 <path d="M119.691 43.0917L119.701 43.1013" stroke="#4364E8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 
-  )
-};
+  );
+}

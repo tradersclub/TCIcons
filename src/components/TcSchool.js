@@ -7,5 +7,5 @@ export default function TcSchool (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

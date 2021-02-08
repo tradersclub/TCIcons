@@ -7,5 +7,5 @@ export default function Voucher (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

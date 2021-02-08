@@ -7,5 +7,5 @@ export default function Maximize (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

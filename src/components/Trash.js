@@ -7,5 +7,5 @@ export default function Trash (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

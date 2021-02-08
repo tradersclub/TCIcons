@@ -7,5 +7,5 @@ export default function EditAtSign (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

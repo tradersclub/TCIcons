@@ -7,5 +7,5 @@ export default function ProposalDetails (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

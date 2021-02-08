@@ -7,5 +7,5 @@ export default function CalendarNoEvents (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

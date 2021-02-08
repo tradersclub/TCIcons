@@ -7,5 +7,5 @@ export default function Company (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

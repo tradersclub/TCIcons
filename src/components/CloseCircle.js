@@ -7,5 +7,5 @@ export default function CloseCircle (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

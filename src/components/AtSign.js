@@ -7,5 +7,5 @@ export default function AtSign (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

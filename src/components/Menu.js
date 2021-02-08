@@ -7,5 +7,5 @@ export default function Menu (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

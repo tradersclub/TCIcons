@@ -7,5 +7,5 @@ export default function Cards (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

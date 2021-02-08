@@ -7,5 +7,5 @@ export default function Diretorio (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

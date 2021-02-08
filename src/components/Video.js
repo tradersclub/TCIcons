@@ -7,5 +7,5 @@ export default function Video (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

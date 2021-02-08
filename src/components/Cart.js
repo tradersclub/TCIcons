@@ -7,5 +7,5 @@ export default function Cart (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

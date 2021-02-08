@@ -7,5 +7,5 @@ export default function Calculator (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

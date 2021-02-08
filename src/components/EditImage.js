@@ -7,5 +7,5 @@ export default function EditImage (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

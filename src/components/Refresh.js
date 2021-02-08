@@ -7,5 +7,5 @@ export default function Refresh (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

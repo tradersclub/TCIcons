@@ -7,5 +7,5 @@ export default function Edit2 (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

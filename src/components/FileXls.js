@@ -11,5 +11,5 @@ export default function FileXls (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

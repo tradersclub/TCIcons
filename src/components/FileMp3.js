@@ -11,5 +11,5 @@ export default function FileMp3 (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

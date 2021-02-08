@@ -7,5 +7,5 @@ export default function EditCenterAlign (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

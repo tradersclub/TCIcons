@@ -7,5 +7,5 @@ export default function Plus (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

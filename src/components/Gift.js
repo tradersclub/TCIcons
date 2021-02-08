@@ -7,5 +7,5 @@ export default function Gift (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

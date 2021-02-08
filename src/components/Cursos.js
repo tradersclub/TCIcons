@@ -7,5 +7,5 @@ export default function Cursos (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

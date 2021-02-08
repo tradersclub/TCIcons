@@ -7,5 +7,5 @@ export default function Mover (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

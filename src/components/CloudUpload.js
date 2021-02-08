@@ -7,5 +7,5 @@ export default function CloudUpload (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

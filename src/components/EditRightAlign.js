@@ -7,5 +7,5 @@ export default function EditRightAlign (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

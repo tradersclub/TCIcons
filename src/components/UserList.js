@@ -7,5 +7,5 @@ export default function UserList (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

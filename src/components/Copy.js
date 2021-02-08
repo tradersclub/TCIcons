@@ -7,5 +7,5 @@ export default function Copy (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

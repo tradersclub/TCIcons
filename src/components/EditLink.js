@@ -7,5 +7,5 @@ export default function EditLink (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

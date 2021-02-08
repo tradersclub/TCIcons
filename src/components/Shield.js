@@ -7,5 +7,5 @@ export default function Shield (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

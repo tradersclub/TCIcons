@@ -7,5 +7,5 @@ export default function Store (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

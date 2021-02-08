@@ -7,5 +7,5 @@ export default function EditItalic (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

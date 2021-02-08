@@ -11,5 +11,5 @@ export default function FileDoc (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

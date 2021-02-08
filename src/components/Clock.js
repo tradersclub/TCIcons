@@ -7,5 +7,5 @@ export default function Clock (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

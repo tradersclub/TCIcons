@@ -7,5 +7,5 @@ export default function ImageFill (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

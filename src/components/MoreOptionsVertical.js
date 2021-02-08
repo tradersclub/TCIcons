@@ -5,5 +5,5 @@ export default function MoreOptionsVertical (props) {
   <path  fill-rule="evenodd" d="M14 9a2 2 0 114 0 2 2 0 01-4 0zm0 7a2 2 0 114 0 2 2 0 01-4 0zm2 5a2 2 0 100 4 2 2 0 000-4z" clip-rule="evenodd"/>
 </svg>
 
-  )
-};
+  );
+}

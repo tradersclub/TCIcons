@@ -7,5 +7,5 @@ export default function MoneySign (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

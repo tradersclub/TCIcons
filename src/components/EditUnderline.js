@@ -7,5 +7,5 @@ export default function EditUnderline (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

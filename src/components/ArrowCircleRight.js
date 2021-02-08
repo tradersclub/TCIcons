@@ -7,5 +7,5 @@ export default function ArrowCircleRight (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

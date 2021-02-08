@@ -7,5 +7,5 @@ export default function Play (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

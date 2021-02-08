@@ -7,5 +7,5 @@ export default function Bookmark (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

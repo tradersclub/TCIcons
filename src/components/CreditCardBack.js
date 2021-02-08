@@ -7,5 +7,5 @@ export default function CreditCardBack (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

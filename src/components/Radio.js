@@ -7,5 +7,5 @@ export default function Radio (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

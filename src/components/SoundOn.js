@@ -7,5 +7,5 @@ export default function SoundOn (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

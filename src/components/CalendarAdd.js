@@ -7,5 +7,5 @@ export default function CalendarAdd (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

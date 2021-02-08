@@ -7,5 +7,5 @@ export default function Ranking (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

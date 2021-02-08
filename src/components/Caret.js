@@ -7,5 +7,5 @@ export default function Caret (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

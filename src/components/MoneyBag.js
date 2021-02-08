@@ -7,5 +7,5 @@ export default function MoneyBag (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

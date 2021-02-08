@@ -38,8 +38,8 @@ for (file of files) {
 export default function ${name} (props) {
   return (
     ${content}
-  )
-};
+  );
+}
 `;
     indexFile += `
 export * from './${name}.js';

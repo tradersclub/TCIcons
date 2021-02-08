@@ -7,5 +7,5 @@ export default function Star (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

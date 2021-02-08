@@ -7,5 +7,5 @@ export default function Selector (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

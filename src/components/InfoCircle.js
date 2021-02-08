@@ -7,5 +7,5 @@ export default function InfoCircle (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

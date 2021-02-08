@@ -7,5 +7,5 @@ export default function RefreshSlash (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

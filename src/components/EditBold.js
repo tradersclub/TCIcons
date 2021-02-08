@@ -7,5 +7,5 @@ export default function EditBold (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

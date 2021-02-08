@@ -7,5 +7,5 @@ export default function EditIndentRight (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

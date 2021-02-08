@@ -7,5 +7,5 @@ export default function EditNumberList (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

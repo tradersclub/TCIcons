@@ -7,5 +7,5 @@ export default function CameraFill (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

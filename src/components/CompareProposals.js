@@ -7,5 +7,5 @@ export default function CompareProposals (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

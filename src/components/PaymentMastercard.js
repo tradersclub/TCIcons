@@ -12,5 +12,5 @@ export default function PaymentMastercard (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

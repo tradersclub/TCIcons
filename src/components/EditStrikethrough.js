@@ -7,5 +7,5 @@ export default function EditStrikethrough (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

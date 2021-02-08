@@ -7,5 +7,5 @@ export default function Support (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

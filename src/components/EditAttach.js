@@ -7,5 +7,5 @@ export default function EditAttach (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

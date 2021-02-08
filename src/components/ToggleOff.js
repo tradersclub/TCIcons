@@ -7,5 +7,5 @@ export default function ToggleOff (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}

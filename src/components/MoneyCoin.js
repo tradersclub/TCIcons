@@ -7,5 +7,5 @@ export default function MoneyCoin (props) {
   </g>
 </svg>
 
-  )
-};
+  );
+}
