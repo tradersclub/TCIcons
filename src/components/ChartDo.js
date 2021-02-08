@@ -1,12 +1,14 @@
+import * as React from 'react';
 
-        import * as React from 'react';
-        const ChartDo = (props) => {
-            return (
-                <svg width={props.width} height={props.height} viewBox="0 0 32 32" fill={props.color} xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M20.2929 7.29289C19.9024 7.68342 19.9024 8.31658 20.2929 8.70711L24.5858 13L13 13C8.02944 13 4 17.0294 4 22V24C4 24.5523 4.44772 25 5 25C5.55228 25 6 24.5523 6 24V22C6 18.134 9.13401 15 13 15L24.5858 15L20.2929 19.2929C19.9024 19.6834 19.9024 20.3166 20.2929 20.7071C20.6834 21.0976 21.3166 21.0976 21.7071 20.7071L27.7071 14.7071C27.8946 14.5196 28 14.2652 28 14C28 13.7348 27.8946 13.4804 27.7071 13.2929L21.7071 7.29289C21.3166 6.90237 20.6834 6.90237 20.2929 7.29289Z" />
-</svg>
+function SvgChartDo() {
+    return (
+        <svg width="1em" height="1em" viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                clipRule="evenodd"
+                d="M20.293 7.293a1 1 0 000 1.414L24.586 13H13a9 9 0 00-9 9v2a1 1 0 102 0v-2a7 7 0 017-7h11.586l-4.293 4.293a1 1 0 001.414 1.414l6-6a1 1 0 000-1.414l-6-6a1 1 0 00-1.414 0z"
+            />
+        </svg>
+    );
+}
 
-            );
-        }
-        export default ChartDo
-    
+export default SvgChartDo;

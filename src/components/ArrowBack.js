@@ -1,9 +1,15 @@
+import * as React from 'react';
 
-        import * as React from 'react';
-        const ArrowBack = (props) => {
-            return (
-                <svg width={props.width} height={props.height} viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg"><g><path fill-rule="evenodd" clip-rule="evenodd" d="M15.7071 5.29289C16.0976 5.68342 16.0976 6.31658 15.7071 6.70711L7.41421 15L27 15C27.5523 15 28 15.4477 28 16C28 16.5523 27.5523 17 27 17L7.41421 17L15.7071 25.2929C16.0976 25.6834 16.0976 26.3166 15.7071 26.7071C15.3166 27.0976 14.6834 27.0976 14.2929 26.7071L4.29289 16.7071C3.90237 16.3166 3.90237 15.6834 4.29289 15.2929L14.2929 5.29289C14.6834 4.90237 15.3166 4.90237 15.7071 5.29289Z"/></g></svg>
-            );
-        }
-        export default ArrowBack
-    
+function SvgArrowBack() {
+    return (
+        <svg width="1em" height="1em" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+            <path
+                fillRule="evenodd"
+                clipRule="evenodd"
+                d="M15.707 5.293a1 1 0 010 1.414L7.414 15H27a1 1 0 110 2H7.414l8.293 8.293a1 1 0 01-1.414 1.414l-10-10a1 1 0 010-1.414l10-10a1 1 0 011.414 0z"
+            />
+        </svg>
+    );
+}
+
+export default SvgArrowBack;

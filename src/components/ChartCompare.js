@@ -1,12 +1,14 @@
+import * as React from 'react';
 
-        import * as React from 'react';
-        const ChartCompare = (props) => {
-            return (
-                <svg width={props.width} height={props.height} viewBox="0 0 32 32" fill={props.color} xmlns="http://www.w3.org/2000/svg">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M28 16C28 22.6274 22.6274 28 16 28C9.37258 28 4 22.6274 4 16C4 9.37259 9.37258 4.00001 16 4.00001C22.6274 4.00001 28 9.37259 28 16ZM25.9999 16C25.9999 21.5229 21.5228 26 15.9999 26C10.4771 26 5.99994 21.5229 5.99994 16C5.99994 10.4772 10.4771 6 15.9999 6C21.5228 6 25.9999 10.4772 25.9999 16ZM17 17V21C17 21.0345 16.9982 21.0686 16.9948 21.1022C16.9436 21.6065 16.5178 22 16 22C15.4477 22 15 21.5523 15 21V17H11C10.4477 17 9.99999 16.5523 9.99999 16C9.99999 15.4477 10.4477 15 11 15H15V11C15 10.4477 15.4477 10 16 10C16.5523 10 17 10.4477 17 11V15H21C21.5523 15 22 15.4477 22 16C22 16.5523 21.5523 17 21 17H17Z" />
-</svg>
+function SvgChartCompare() {
+    return (
+        <svg width="1em" height="1em" viewBox="0 0 32 32" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path
+                clipRule="evenodd"
+                d="M28 16c0 6.627-5.373 12-12 12S4 22.627 4 16 9.373 4 16 4s12 5.373 12 12zm-2 0c0 5.523-4.477 10-10 10S6 21.523 6 16 10.477 6 16 6s10 4.477 10 10zm-9 1v4a1 1 0 01-2 0v-4h-4a1 1 0 110-2h4v-4a1 1 0 112 0v4h4a1 1 0 110 2h-4z"
+            />
+        </svg>
+    );
+}
 
-            );
-        }
-        export default ChartCompare
-    
+export default SvgChartCompare;

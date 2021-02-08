@@ -1,3 +1,2 @@
-import * as components from './components';
-export declare const Components: typeof components;
+export declare const Components: any;
 export * from './svg';
