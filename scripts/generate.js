@@ -10,11 +10,11 @@ function camelize(property) {
 
 function applyReplace(content) {
     return content
-        .replace('fill="none"', 'fill={props.color}')
-        .replace('width="32"', 'width={props.width}')
-        .replace('height="32"', 'height={props.height}')
-        .replace('width="1em"', 'width={props.width}')
-        .replace('height="1em"', 'height={props.height}');
+        .replace('fill="none"', 'fill="${props.color}"')
+        .replace('width="32"', 'width="${props.width}"')
+        .replace('height="32"', 'height="${props.height}"')
+        .replace('width="1em"', 'width="${props.width}"')
+        .replace('height="1em"', 'height="${props.height}"');
 }
 
 const SVG_DIR = `${process.cwd()}/src/svg`;
@@ -35,13 +35,16 @@ for (file of files) {
     content = applyReplace(content);
 
     const component = `
-        import * as React from 'react';
-        const ${name} = (props) => {
-            return (
-                ${content}
-            );
-        }
-        export default ${name}
+    import * as React from 'react';
+
+    const ${name} = (props) => {
+        return React.createElement('div', {dangerouslySetInnerHTML:{__html:\`
+            ${content}
+        \`}}
+        
+        );
+    }
+    export default ${name}
     `;
     
     indexFile += `
