@@ -13,5 +13,5 @@
             
             );
         }
-        export default CloseCircle
+        export default CloseCircle;
         

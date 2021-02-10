@@ -8,5 +8,5 @@
             
             );
         }
-        export default DrawFibonacciTimezone
+        export default DrawFibonacciTimezone;
         

@@ -13,5 +13,5 @@
             
             );
         }
-        export default Shield
+        export default Shield;
         

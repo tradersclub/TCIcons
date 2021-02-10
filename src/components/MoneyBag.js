@@ -13,5 +13,5 @@
             
             );
         }
-        export default MoneyBag
+        export default MoneyBag;
         

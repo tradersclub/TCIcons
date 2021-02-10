@@ -13,5 +13,5 @@
             
             );
         }
-        export default CalendarNoEvents
+        export default CalendarNoEvents;
         

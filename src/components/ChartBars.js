@@ -11,5 +11,5 @@
             
             );
         }
-        export default ChartBars
+        export default ChartBars;
         

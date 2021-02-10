@@ -11,5 +11,5 @@
             
             );
         }
-        export default ChartLine
+        export default ChartLine;
         

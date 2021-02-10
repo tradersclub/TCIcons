@@ -13,5 +13,5 @@
             
             );
         }
-        export default Download
+        export default Download;
         

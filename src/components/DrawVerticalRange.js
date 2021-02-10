@@ -11,5 +11,5 @@
             
             );
         }
-        export default DrawVerticalRange
+        export default DrawVerticalRange;
         

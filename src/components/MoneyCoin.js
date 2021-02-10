@@ -13,5 +13,5 @@
             
             );
         }
-        export default MoneyCoin
+        export default MoneyCoin;
         

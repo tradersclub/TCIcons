@@ -13,5 +13,5 @@
             
             );
         }
-        export default GripVerticalLine
+        export default GripVerticalLine;
         

@@ -11,5 +11,5 @@
             
             );
         }
-        export default ThumbUp
+        export default ThumbUp;
         

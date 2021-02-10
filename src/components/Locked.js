@@ -11,5 +11,5 @@
             
             );
         }
-        export default Locked
+        export default Locked;
         

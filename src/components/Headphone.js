@@ -8,5 +8,5 @@
             
             );
         }
-        export default Headphone
+        export default Headphone;
         

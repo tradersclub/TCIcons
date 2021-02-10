@@ -13,5 +13,5 @@
             
             );
         }
-        export default EditItalic
+        export default EditItalic;
         

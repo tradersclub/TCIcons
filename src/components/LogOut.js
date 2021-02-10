@@ -11,5 +11,5 @@
             
             );
         }
-        export default LogOut
+        export default LogOut;
         

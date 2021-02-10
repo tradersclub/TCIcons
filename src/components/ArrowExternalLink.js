@@ -11,5 +11,5 @@
             
             );
         }
-        export default ArrowExternalLink
+        export default ArrowExternalLink;
         

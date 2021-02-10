@@ -13,5 +13,5 @@
             
             );
         }
-        export default EmojiSad
+        export default EmojiSad;
         

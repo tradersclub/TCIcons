@@ -13,5 +13,5 @@
             
             );
         }
-        export default GripVerticalPoint
+        export default GripVerticalPoint;
         

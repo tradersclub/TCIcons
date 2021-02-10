@@ -13,5 +13,5 @@
             
             );
         }
-        export default EditLink
+        export default EditLink;
         

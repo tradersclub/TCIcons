@@ -13,5 +13,5 @@
             
             );
         }
-        export default EditQuoteMark
+        export default EditQuoteMark;
         

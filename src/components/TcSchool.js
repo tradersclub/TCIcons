@@ -13,5 +13,5 @@
             
             );
         }
-        export default TcSchool
+        export default TcSchool;
         

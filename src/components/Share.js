@@ -11,5 +11,5 @@
             
             );
         }
-        export default Share
+        export default Share;
         

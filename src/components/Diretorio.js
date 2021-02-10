@@ -13,5 +13,5 @@
             
             );
         }
-        export default Diretorio
+        export default Diretorio;
         

@@ -11,5 +11,5 @@
             
             );
         }
-        export default TradeIdeas
+        export default TradeIdeas;
         

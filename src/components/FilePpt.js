@@ -17,5 +17,5 @@
             
             );
         }
-        export default FilePpt
+        export default FilePpt;
         

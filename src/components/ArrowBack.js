@@ -8,5 +8,5 @@
             
             );
         }
-        export default ArrowBack
+        export default ArrowBack;
         

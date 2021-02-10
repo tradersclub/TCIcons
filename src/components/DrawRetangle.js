@@ -11,5 +11,5 @@
             
             );
         }
-        export default DrawRetangle
+        export default DrawRetangle;
         

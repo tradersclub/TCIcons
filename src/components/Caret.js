@@ -13,5 +13,5 @@
             
             );
         }
-        export default Caret
+        export default Caret;
         

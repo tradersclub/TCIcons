@@ -11,5 +11,5 @@
             
             );
         }
-        export default AlertFill
+        export default AlertFill;
         

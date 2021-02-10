@@ -8,5 +8,5 @@
             
             );
         }
-        export default ArrowAngleContract
+        export default ArrowAngleContract;
         

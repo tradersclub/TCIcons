@@ -11,5 +11,5 @@
             
             );
         }
-        export default ChartUndo
+        export default ChartUndo;
         

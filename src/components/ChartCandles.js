@@ -11,5 +11,5 @@
             
             );
         }
-        export default ChartCandles
+        export default ChartCandles;
         

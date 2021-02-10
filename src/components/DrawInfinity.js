@@ -11,5 +11,5 @@
             
             );
         }
-        export default DrawInfinity
+        export default DrawInfinity;
         

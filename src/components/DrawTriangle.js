@@ -11,5 +11,5 @@
             
             );
         }
-        export default DrawTriangle
+        export default DrawTriangle;
         

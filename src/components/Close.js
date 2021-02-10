@@ -11,5 +11,5 @@
             
             );
         }
-        export default Close
+        export default Close;
         

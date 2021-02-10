@@ -8,5 +8,5 @@
             
             );
         }
-        export default ArrowPageLeft
+        export default ArrowPageLeft;
         

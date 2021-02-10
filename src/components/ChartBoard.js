@@ -13,5 +13,5 @@
             
             );
         }
-        export default ChartBoard
+        export default ChartBoard;
         

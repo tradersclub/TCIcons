@@ -11,5 +11,5 @@
             
             );
         }
-        export default Buy
+        export default Buy;
         

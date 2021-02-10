@@ -11,5 +11,5 @@
             
             );
         }
-        export default DrawVerticalLine
+        export default DrawVerticalLine;
         

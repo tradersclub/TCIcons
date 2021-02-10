@@ -13,5 +13,5 @@
             
             );
         }
-        export default Chat
+        export default Chat;
         

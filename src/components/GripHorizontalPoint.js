@@ -13,5 +13,5 @@
             
             );
         }
-        export default GripHorizontalPoint
+        export default GripHorizontalPoint;
         

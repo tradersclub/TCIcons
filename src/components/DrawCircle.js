@@ -11,5 +11,5 @@
             
             );
         }
-        export default DrawCircle
+        export default DrawCircle;
         

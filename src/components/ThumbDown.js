@@ -11,5 +11,5 @@
             
             );
         }
-        export default ThumbDown
+        export default ThumbDown;
         

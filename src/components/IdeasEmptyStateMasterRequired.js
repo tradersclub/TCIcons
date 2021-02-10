@@ -45,5 +45,5 @@
             
             );
         }
-        export default IdeasEmptyStateMasterRequired
+        export default IdeasEmptyStateMasterRequired;
         

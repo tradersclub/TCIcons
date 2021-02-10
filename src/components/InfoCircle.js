@@ -13,5 +13,5 @@
             
             );
         }
-        export default InfoCircle
+        export default InfoCircle;
         

@@ -13,5 +13,5 @@
             
             );
         }
-        export default TimeEvent
+        export default TimeEvent;
         

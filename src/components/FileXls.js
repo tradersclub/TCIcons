@@ -17,5 +17,5 @@
             
             );
         }
-        export default FileXls
+        export default FileXls;
         

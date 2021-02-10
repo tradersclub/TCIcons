@@ -17,5 +17,5 @@
             
             );
         }
-        export default FilePdf
+        export default FilePdf;
         

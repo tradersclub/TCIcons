@@ -8,5 +8,5 @@
             
             );
         }
-        export default ArrowBoxExternalLink
+        export default ArrowBoxExternalLink;
         

@@ -13,5 +13,5 @@
             
             );
         }
-        export default Settings
+        export default Settings;
         

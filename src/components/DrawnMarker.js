@@ -11,5 +11,5 @@
             
             );
         }
-        export default DrawnMarker
+        export default DrawnMarker;
         

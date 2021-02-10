@@ -11,5 +11,5 @@
             
             );
         }
-        export default Hide
+        export default Hide;
         

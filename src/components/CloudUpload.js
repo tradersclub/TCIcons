@@ -13,5 +13,5 @@
             
             );
         }
-        export default CloudUpload
+        export default CloudUpload;
         

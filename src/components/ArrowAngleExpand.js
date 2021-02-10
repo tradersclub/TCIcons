@@ -8,5 +8,5 @@
             
             );
         }
-        export default ArrowAngleExpand
+        export default ArrowAngleExpand;
         

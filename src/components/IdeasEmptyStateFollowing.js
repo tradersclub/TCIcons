@@ -51,5 +51,5 @@
             
             );
         }
-        export default IdeasEmptyStateFollowing
+        export default IdeasEmptyStateFollowing;
         

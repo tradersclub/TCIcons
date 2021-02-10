@@ -11,5 +11,5 @@
             
             );
         }
-        export default Sliders
+        export default Sliders;
         

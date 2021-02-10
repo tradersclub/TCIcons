@@ -14,5 +14,5 @@
             
             );
         }
-        export default Master
+        export default Master;
         

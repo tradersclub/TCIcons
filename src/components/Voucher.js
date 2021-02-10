@@ -13,5 +13,5 @@
             
             );
         }
-        export default Voucher
+        export default Voucher;
         

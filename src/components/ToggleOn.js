@@ -13,5 +13,5 @@
             
             );
         }
-        export default ToggleOn
+        export default ToggleOn;
         

@@ -13,5 +13,5 @@
             
             );
         }
-        export default Minimize
+        export default Minimize;
         

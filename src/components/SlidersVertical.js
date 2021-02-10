@@ -11,5 +11,5 @@
             
             );
         }
-        export default SlidersVertical
+        export default SlidersVertical;
         

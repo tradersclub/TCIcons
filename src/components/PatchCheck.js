@@ -13,5 +13,5 @@
             
             );
         }
-        export default PatchCheck
+        export default PatchCheck;
         

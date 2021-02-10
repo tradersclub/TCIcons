@@ -13,5 +13,5 @@
             
             );
         }
-        export default Mover
+        export default Mover;
         

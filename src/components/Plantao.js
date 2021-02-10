@@ -11,5 +11,5 @@
             
             );
         }
-        export default Plantao
+        export default Plantao;
         

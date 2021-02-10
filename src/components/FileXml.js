@@ -17,5 +17,5 @@
             
             );
         }
-        export default FileXml
+        export default FileXml;
         

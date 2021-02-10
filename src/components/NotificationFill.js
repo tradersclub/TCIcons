@@ -13,5 +13,5 @@
             
             );
         }
-        export default NotificationFill
+        export default NotificationFill;
         

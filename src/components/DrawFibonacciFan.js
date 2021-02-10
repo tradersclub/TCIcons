@@ -8,5 +8,5 @@
             
             );
         }
-        export default DrawFibonacciFan
+        export default DrawFibonacciFan;
         

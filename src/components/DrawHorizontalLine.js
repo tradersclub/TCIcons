@@ -11,5 +11,5 @@
             
             );
         }
-        export default DrawHorizontalLine
+        export default DrawHorizontalLine;
         

@@ -11,5 +11,5 @@
             
             );
         }
-        export default FileText
+        export default FileText;
         

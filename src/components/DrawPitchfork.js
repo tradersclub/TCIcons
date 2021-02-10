@@ -11,5 +11,5 @@
             
             );
         }
-        export default DrawPitchfork
+        export default DrawPitchfork;
         

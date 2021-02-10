@@ -11,5 +11,5 @@
             
             );
         }
-        export default CircleMinus
+        export default CircleMinus;
         

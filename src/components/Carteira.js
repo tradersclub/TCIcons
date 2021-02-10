@@ -8,5 +8,5 @@
             
             );
         }
-        export default Carteira
+        export default Carteira;
         

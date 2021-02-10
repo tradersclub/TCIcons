@@ -11,5 +11,5 @@
             
             );
         }
-        export default TcOptions
+        export default TcOptions;
         

@@ -13,5 +13,5 @@
             
             );
         }
-        export default Selector
+        export default Selector;
         

@@ -13,5 +13,5 @@
             
             );
         }
-        export default Indicator
+        export default Indicator;
         

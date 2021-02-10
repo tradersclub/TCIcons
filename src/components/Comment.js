@@ -11,5 +11,5 @@
             
             );
         }
-        export default Comment
+        export default Comment;
         

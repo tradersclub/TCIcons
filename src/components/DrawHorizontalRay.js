@@ -11,5 +11,5 @@
             
             );
         }
-        export default DrawHorizontalRay
+        export default DrawHorizontalRay;
         

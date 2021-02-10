@@ -13,5 +13,5 @@
             
             );
         }
-        export default EditStrikethrough
+        export default EditStrikethrough;
         

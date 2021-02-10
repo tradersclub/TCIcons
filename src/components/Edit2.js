@@ -13,5 +13,5 @@
             
             );
         }
-        export default Edit2
+        export default Edit2;
         

@@ -13,5 +13,5 @@
             
             );
         }
-        export default Check
+        export default Check;
         

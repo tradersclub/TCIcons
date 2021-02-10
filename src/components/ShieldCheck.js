@@ -16,5 +16,5 @@
             
             );
         }
-        export default ShieldCheck
+        export default ShieldCheck;
         

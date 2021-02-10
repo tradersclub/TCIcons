@@ -13,5 +13,5 @@
             
             );
         }
-        export default Refresh
+        export default Refresh;
         

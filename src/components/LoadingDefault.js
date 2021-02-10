@@ -13,5 +13,5 @@
             
             );
         }
-        export default LoadingDefault
+        export default LoadingDefault;
         

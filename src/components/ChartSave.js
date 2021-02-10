@@ -11,5 +11,5 @@
             
             );
         }
-        export default ChartSave
+        export default ChartSave;
         

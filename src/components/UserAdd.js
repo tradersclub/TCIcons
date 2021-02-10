@@ -8,5 +8,5 @@
             
             );
         }
-        export default UserAdd
+        export default UserAdd;
         

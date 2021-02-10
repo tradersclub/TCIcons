@@ -11,5 +11,5 @@
             
             );
         }
-        export default DrawTrendLine
+        export default DrawTrendLine;
         

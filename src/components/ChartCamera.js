@@ -12,5 +12,5 @@
             
             );
         }
-        export default ChartCamera
+        export default ChartCamera;
         

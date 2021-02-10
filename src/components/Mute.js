@@ -13,5 +13,5 @@
             
             );
         }
-        export default Mute
+        export default Mute;
         

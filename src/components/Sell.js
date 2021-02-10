@@ -11,5 +11,5 @@
             
             );
         }
-        export default Sell
+        export default Sell;
         

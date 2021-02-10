@@ -17,5 +17,5 @@
             
             );
         }
-        export default FileMp3
+        export default FileMp3;
         

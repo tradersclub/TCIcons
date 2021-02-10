@@ -13,5 +13,5 @@
             
             );
         }
-        export default EditIndentRight
+        export default EditIndentRight;
         

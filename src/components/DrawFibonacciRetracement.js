@@ -10,5 +10,5 @@
             
             );
         }
-        export default DrawFibonacciRetracement
+        export default DrawFibonacciRetracement;
         

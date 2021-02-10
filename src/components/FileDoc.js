@@ -17,5 +17,5 @@
             
             );
         }
-        export default FileDoc
+        export default FileDoc;
         

@@ -11,5 +11,5 @@
             
             );
         }
-        export default ChartDo
+        export default ChartDo;
         

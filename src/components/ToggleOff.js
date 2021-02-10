@@ -13,5 +13,5 @@
             
             );
         }
-        export default ToggleOff
+        export default ToggleOff;
         

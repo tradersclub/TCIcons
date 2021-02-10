@@ -11,5 +11,5 @@
             
             );
         }
-        export default DrawHorizontalRange
+        export default DrawHorizontalRange;
         

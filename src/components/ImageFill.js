@@ -13,5 +13,5 @@
             
             );
         }
-        export default ImageFill
+        export default ImageFill;
         

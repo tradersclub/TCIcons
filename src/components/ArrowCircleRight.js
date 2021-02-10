@@ -13,5 +13,5 @@
             
             );
         }
-        export default ArrowCircleRight
+        export default ArrowCircleRight;
         

@@ -11,5 +11,5 @@
             
             );
         }
-        export default HourGlass
+        export default HourGlass;
         

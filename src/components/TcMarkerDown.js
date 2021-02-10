@@ -10,5 +10,5 @@
             
             );
         }
-        export default TcMarkerDown
+        export default TcMarkerDown;
         

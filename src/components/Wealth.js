@@ -11,5 +11,5 @@
             
             );
         }
-        export default Wealth
+        export default Wealth;
         

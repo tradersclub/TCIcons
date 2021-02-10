@@ -13,5 +13,5 @@
             
             );
         }
-        export default CreditCardBack
+        export default CreditCardBack;
         

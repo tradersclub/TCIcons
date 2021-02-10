@@ -13,5 +13,5 @@
             
             );
         }
-        export default GripHorizontalLine
+        export default GripHorizontalLine;
         

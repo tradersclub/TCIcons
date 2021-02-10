@@ -13,5 +13,5 @@
             
             );
         }
-        export default EditBold
+        export default EditBold;
         

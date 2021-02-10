@@ -11,5 +11,5 @@
             
             );
         }
-        export default Send
+        export default Send;
         

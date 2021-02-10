@@ -11,5 +11,5 @@
             
             );
         }
-        export default Percentage
+        export default Percentage;
         

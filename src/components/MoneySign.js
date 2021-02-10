@@ -13,5 +13,5 @@
             
             );
         }
-        export default MoneySign
+        export default MoneySign;
         

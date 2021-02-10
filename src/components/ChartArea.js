@@ -12,5 +12,5 @@
             
             );
         }
-        export default ChartArea
+        export default ChartArea;
         

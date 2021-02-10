@@ -13,5 +13,5 @@
             
             );
         }
-        export default Company
+        export default Company;
         

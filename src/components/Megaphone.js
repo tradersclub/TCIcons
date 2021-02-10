@@ -11,5 +11,5 @@
             
             );
         }
-        export default Megaphone
+        export default Megaphone;
         

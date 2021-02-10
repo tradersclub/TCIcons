@@ -11,5 +11,5 @@
             
             );
         }
-        export default Calendar
+        export default Calendar;
         

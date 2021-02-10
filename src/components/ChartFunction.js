@@ -11,5 +11,5 @@
             
             );
         }
-        export default ChartFunction
+        export default ChartFunction;
         

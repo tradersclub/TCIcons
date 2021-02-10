@@ -13,5 +13,5 @@
             
             );
         }
-        export default Copy
+        export default Copy;
         

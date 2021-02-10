@@ -13,5 +13,5 @@
             
             );
         }
-        export default CompareProposals
+        export default CompareProposals;
         

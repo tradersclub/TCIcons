@@ -8,5 +8,5 @@
             
             );
         }
-        export default Torneio
+        export default Torneio;
         

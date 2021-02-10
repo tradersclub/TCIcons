@@ -11,5 +11,5 @@
             
             );
         }
-        export default MoreOptionsVertical
+        export default MoreOptionsVertical;
         

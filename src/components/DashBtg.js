@@ -13,5 +13,5 @@
             
             );
         }
-        export default DashBtg
+        export default DashBtg;
         

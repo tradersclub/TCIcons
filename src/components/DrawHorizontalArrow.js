@@ -11,5 +11,5 @@
             
             );
         }
-        export default DrawHorizontalArrow
+        export default DrawHorizontalArrow;
         

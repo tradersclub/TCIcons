@@ -11,5 +11,5 @@
             
             );
         }
-        export default DrawTrendChannel
+        export default DrawTrendChannel;
         

@@ -11,5 +11,5 @@
             
             );
         }
-        export default CirclePlus
+        export default CirclePlus;
         

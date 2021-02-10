@@ -13,5 +13,5 @@
             
             );
         }
-        export default EditRightAlign
+        export default EditRightAlign;
         

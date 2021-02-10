@@ -11,5 +11,5 @@
             
             );
         }
-        export default Equity
+        export default Equity;
         

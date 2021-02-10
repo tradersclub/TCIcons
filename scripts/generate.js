@@ -41,7 +41,7 @@ for (file of files) {
             
             );
         }
-        export default ${name}
+        export default ${name};
         `;
         
         indexFile += `

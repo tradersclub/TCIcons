@@ -11,5 +11,5 @@
             
             );
         }
-        export default EmojiAdd
+        export default EmojiAdd;
         

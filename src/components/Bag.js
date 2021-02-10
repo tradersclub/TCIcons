@@ -13,5 +13,5 @@
             
             );
         }
-        export default Bag
+        export default Bag;
         

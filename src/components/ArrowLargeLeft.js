@@ -8,5 +8,5 @@
             
             );
         }
-        export default ArrowLargeLeft
+        export default ArrowLargeLeft;
         

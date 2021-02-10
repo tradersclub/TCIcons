@@ -11,5 +11,5 @@
             
             );
         }
-        export default Show
+        export default Show;
         

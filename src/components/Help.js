@@ -13,5 +13,5 @@
             
             );
         }
-        export default Help
+        export default Help;
         

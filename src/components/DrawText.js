@@ -11,5 +11,5 @@
             
             );
         }
-        export default DrawText
+        export default DrawText;
         

@@ -13,5 +13,5 @@
             
             );
         }
-        export default Cursos
+        export default Cursos;
         

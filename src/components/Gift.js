@@ -13,5 +13,5 @@
             
             );
         }
-        export default Gift
+        export default Gift;
         

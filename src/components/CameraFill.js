@@ -13,5 +13,5 @@
             
             );
         }
-        export default CameraFill
+        export default CameraFill;
         

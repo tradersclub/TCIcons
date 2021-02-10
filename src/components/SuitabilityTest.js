@@ -30,5 +30,5 @@
             
             );
         }
-        export default SuitabilityTest
+        export default SuitabilityTest;
         

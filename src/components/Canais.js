@@ -13,5 +13,5 @@
             
             );
         }
-        export default Canais
+        export default Canais;
         

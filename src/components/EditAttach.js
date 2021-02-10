@@ -13,5 +13,5 @@
             
             );
         }
-        export default EditAttach
+        export default EditAttach;
         

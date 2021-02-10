@@ -11,5 +11,5 @@
             
             );
         }
-        export default DrawArrow
+        export default DrawArrow;
         

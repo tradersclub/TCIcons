@@ -18,5 +18,5 @@
             
             );
         }
-        export default PaymentMastercard
+        export default PaymentMastercard;
         

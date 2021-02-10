@@ -11,5 +11,5 @@
             
             );
         }
-        export default Lock
+        export default Lock;
         
