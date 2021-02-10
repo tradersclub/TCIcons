@@ -16,7 +16,7 @@ npm: npm install https://github.com/tradersclub/TCIcons.git#v0.1.0 (Olhar no rep
 Ex.: Importando icone "RadioMic":
 
 ```
-import {IconRadioMic} from '@tradersclub/tc-svg';
+import {IconRadioMic} from '@tradersclub/tc-svg/lib/components';
 
 ...
 
