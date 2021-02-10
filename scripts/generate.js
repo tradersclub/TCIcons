@@ -23,38 +23,34 @@ const alreadyInGenerated = [];
 
 let indexFile = '\n';
 for (file of files) {
-    if (file.split('.').pop() != "svg") {
-        return;
-    }
-    // não duplicar imports
-    if (alreadyInGenerated.includes(file.toLowerCase())) {
-        return;
-    }
 
-    alreadyInGenerated.push(file);
+    if (file.split('.').pop() == "svg" && !alreadyInGenerated.includes(file.toLowerCase())) {
+        alreadyInGenerated.push(file);
 
-    let content = readFileSync(`${SVG_DIR}/${file}`, 'utf-8');
-    const name = camelize(file.replace('.svg', ''));
-    content = applyReplace(content);
+        let content = readFileSync(`${SVG_DIR}/${file}`, 'utf-8');
+        const name = camelize(file.replace('.svg', ''));
+        content = applyReplace(content);
 
-    const component = `
-    import * as React from 'react';
+        const component = `
+        import * as React from 'react';
 
-    const ${name} = (props) => {
-        return React.createElement('div', {dangerouslySetInnerHTML:{__html:\`
-            ${content}
-        \`}}
+        const ${name} = (props) => {
+            return React.createElement('div', {dangerouslySetInnerHTML:{__html:\`
+                ${content}
+            \`}}
+            
+            );
+        }
+        export default ${name}
+        `;
         
-        );
-    }
-    export default ${name}
-    `;
-    
-    indexFile += `
-        export * as ${name} from './${name}.js';
-    `;
+        indexFile += `
+            export * as ${name} from './${name}.js';
+        `;
 
-    writeFileSync(`${process.cwd()}/src/components/${name}.js`, component);
+        writeFileSync(`${process.cwd()}/src/components/${name}.js`, component);
+    }
+
 }
 
-writeFileSync(`${process.cwd()}/src/components/index.ts`, indexFile);
+writeFileSync(`${process.cwd()}/src/components/index.js`, indexFile);

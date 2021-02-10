@@ -1,0 +1,17 @@
+
+        import * as React from 'react';
+
+        const TimeEvent = (props) => {
+            return React.createElement('div', {dangerouslySetInnerHTML:{__html:`
+                <svg xmlns="http://www.w3.org/2000/svg" width="${props.width}" height="${props.height}" fill="${props.color}" viewBox="0 0 32 32">
+  <g class="time-event">
+    <path  fill-rule="evenodd" d="M21 5a1 1 0 10-2 0v1h-6V5a1 1 0 10-2 0v1H7a3 3 0 00-3 3v11a3 3 0 003 3h2.29a7.002 7.002 0 0013.416 0H25a3 3 0 003-3V9a3 3 0 00-3-3h-4V5zm1.997 16H25a1 1 0 001-1v-7.2H6V20a1 1 0 001 1h2v-.002a6.998 6.998 0 1113.997 0V21zM11 9V8H7a1 1 0 00-1 1v2.2h20V9a1 1 0 00-1-1h-4v1a1 1 0 11-2 0V8h-6v1a1 1 0 11-2 0zm4.998 7a4.998 4.998 0 100 9.997 4.998 4.998 0 000-9.997zm-.088.91a1 1 0 011 1v2.382l1.448.724a1 1 0 01-.895 1.789l-2-1a1 1 0 01-.553-.895v-3a1 1 0 011-1z" class="Union" clip-rule="evenodd"/>
+  </g>
+</svg>
+
+            `}}
+            
+            );
+        }
+        export default TimeEvent
+        
