@@ -12,6 +12,29 @@ yarn: yarn add https://github.com/tradersclub/TCIcons.git#v0.1.0 (Olhar no repo 
 
 npm: npm install https://github.com/tradersclub/TCIcons.git#v0.1.0 (Olhar no repo a ultima tag)
 ```
+
+Ex.: Importando icone "RadioMic":
+
+```
+import {IconRadioMic} from '@tradersclub/tc-svg';
+
+...
+
+ComponentReact = () => {
+  
+  ...
+
+  return (
+    <IconRadioMic
+      color="rgba(255, 255, 255, 0.4)"
+      size="28"
+    />
+  )
+}
+
+export default ComponentReact;
+```
+
 ### Install - React-Native
 ```
 yarn: yarn add react-native-svg react-native-svg-transformer babel-plugin-inline-import
