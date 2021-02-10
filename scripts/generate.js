@@ -10,11 +10,11 @@ function camelize(property) {
 
 function applyReplace(content) {
     return content
-        .replace('fill="none"', 'fill={props.color}')
-        .replace('width="32"', 'width={props.width}')
-        .replace('height="32"', 'height={props.height}')
-        .replace('width="1em"', 'width={props.width}')
-        .replace('height="1em"', 'height={props.height}');
+        .replace('fill="none"', 'fill="${props.color}"')
+        .replace('width="32"', 'width="${props.size}"')
+        .replace('height="32"', 'height="${props.size}"')
+        .replace('width="1em"', 'width="${props.size}"')
+        .replace('height="1em"', 'height="${props.size}"');
 }
 
 const SVG_DIR = `${process.cwd()}/src/svg`;
@@ -23,32 +23,35 @@ const alreadyInGenerated = [];
 
 let indexFile = '\n';
 for (file of files) {
-    // não duplicar imports
-    if (alreadyInGenerated.includes(file.toLowerCase())) {
-        return;
-    }
 
-    alreadyInGenerated.push(file);
+    if (file.split('.').pop() == "svg" && !alreadyInGenerated.includes(file.toLowerCase())) {
+        alreadyInGenerated.push(file);
 
-    let content = readFileSync(`${SVG_DIR}/${file}`, 'utf-8');
-    const name = camelize(file.replace('.svg', ''));
-    content = applyReplace(content);
+        let content = readFileSync(`${SVG_DIR}/${file}`, 'utf-8');
+        const name = "Icon"+camelize(file.replace('.svg', ''));
+        content = applyReplace(content);
 
-    const component = `
+        const component = `
         import * as React from 'react';
+
         const ${name} = (props) => {
-            return (
+            return React.createElement('object', {style: props.style, dangerouslySetInnerHTML:{__html:\`
                 ${content}
+            \`}}
+            
             );
         }
-        export default ${name}
-    `;
-    
-    indexFile += `
-        export * from './${name}.js';
-    `;
+        export default ${name};
+        `;
+        
+        indexFile += `
+            import ${name} from './${name}.js';
+            export {${name}};
+        `;
 
-    writeFileSync(`${process.cwd()}/src/components/${name}.js`, component);
+        writeFileSync(`${process.cwd()}/src/components/${name}.js`, component);
+    }
+
 }
 
 writeFileSync(`${process.cwd()}/src/components/index.js`, indexFile);
