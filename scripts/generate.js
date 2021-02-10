@@ -45,7 +45,8 @@ for (file of files) {
         `;
         
         indexFile += `
-            export * as ${name} from './${name}.js';
+            import ${name} from './${name}.js';
+            export {${name}};
         `;
 
         writeFileSync(`${process.cwd()}/src/components/${name}.js`, component);

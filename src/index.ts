@@ -1,5 +1,2 @@
-// import * as components from './components';
-
-// export const Components = components;
-
+export * as Components from './components'
 export * from './svg';

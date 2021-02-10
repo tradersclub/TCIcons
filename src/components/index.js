@@ -1,424 +1,635 @@
 
 
-            export * as TcSchool from './TcSchool.js';
+            import TcSchool from './TcSchool.js';
+            export {TcSchool};
         
-            export * as AlertFill from './AlertFill.js';
+            import AlertFill from './AlertFill.js';
+            export {AlertFill};
         
-            export * as Alert from './Alert.js';
+            import Alert from './Alert.js';
+            export {Alert};
         
-            export * as ArrowAngleContract from './ArrowAngleContract.js';
+            import ArrowAngleContract from './ArrowAngleContract.js';
+            export {ArrowAngleContract};
         
-            export * as ArrowAngleExpand from './ArrowAngleExpand.js';
+            import ArrowAngleExpand from './ArrowAngleExpand.js';
+            export {ArrowAngleExpand};
         
-            export * as ArrowBack from './ArrowBack.js';
+            import ArrowBack from './ArrowBack.js';
+            export {ArrowBack};
         
-            export * as ArrowBoxExternalLink from './ArrowBoxExternalLink.js';
+            import ArrowBoxExternalLink from './ArrowBoxExternalLink.js';
+            export {ArrowBoxExternalLink};
         
-            export * as ArrowCircleLeft from './ArrowCircleLeft.js';
+            import ArrowCircleLeft from './ArrowCircleLeft.js';
+            export {ArrowCircleLeft};
         
-            export * as ArrowCircleRight from './ArrowCircleRight.js';
+            import ArrowCircleRight from './ArrowCircleRight.js';
+            export {ArrowCircleRight};
         
-            export * as ArrowExternalLink from './ArrowExternalLink.js';
+            import ArrowExternalLink from './ArrowExternalLink.js';
+            export {ArrowExternalLink};
         
-            export * as ArrowLargeDown from './ArrowLargeDown.js';
+            import ArrowLargeDown from './ArrowLargeDown.js';
+            export {ArrowLargeDown};
         
-            export * as ArrowLargeLeft from './ArrowLargeLeft.js';
+            import ArrowLargeLeft from './ArrowLargeLeft.js';
+            export {ArrowLargeLeft};
         
-            export * as ArrowLargeRight from './ArrowLargeRight.js';
+            import ArrowLargeRight from './ArrowLargeRight.js';
+            export {ArrowLargeRight};
         
-            export * as ArrowLargeUp from './ArrowLargeUp.js';
+            import ArrowLargeUp from './ArrowLargeUp.js';
+            export {ArrowLargeUp};
         
-            export * as ArrowPageLeft from './ArrowPageLeft.js';
+            import ArrowPageLeft from './ArrowPageLeft.js';
+            export {ArrowPageLeft};
         
-            export * as ArrowPageRight from './ArrowPageRight.js';
+            import ArrowPageRight from './ArrowPageRight.js';
+            export {ArrowPageRight};
         
-            export * as ArrowSmallDown from './ArrowSmallDown.js';
+            import ArrowSmallDown from './ArrowSmallDown.js';
+            export {ArrowSmallDown};
         
-            export * as ArrowSmallLeft from './ArrowSmallLeft.js';
+            import ArrowSmallLeft from './ArrowSmallLeft.js';
+            export {ArrowSmallLeft};
         
-            export * as ArrowSmallRight from './ArrowSmallRight.js';
+            import ArrowSmallRight from './ArrowSmallRight.js';
+            export {ArrowSmallRight};
         
-            export * as ArrowSmallUp from './ArrowSmallUp.js';
+            import ArrowSmallUp from './ArrowSmallUp.js';
+            export {ArrowSmallUp};
         
-            export * as AtSign from './AtSign.js';
+            import AtSign from './AtSign.js';
+            export {AtSign};
         
-            export * as Award from './Award.js';
+            import Award from './Award.js';
+            export {Award};
         
-            export * as Bag from './Bag.js';
+            import Bag from './Bag.js';
+            export {Bag};
         
-            export * as Blog from './Blog.js';
+            import Blog from './Blog.js';
+            export {Blog};
         
-            export * as Bookmark from './Bookmark.js';
+            import Bookmark from './Bookmark.js';
+            export {Bookmark};
         
-            export * as Buy from './Buy.js';
+            import Buy from './Buy.js';
+            export {Buy};
         
-            export * as Calculator from './Calculator.js';
+            import Calculator from './Calculator.js';
+            export {Calculator};
         
-            export * as CalendarAdd from './CalendarAdd.js';
+            import CalendarAdd from './CalendarAdd.js';
+            export {CalendarAdd};
         
-            export * as CalendarNoEvents from './CalendarNoEvents.js';
+            import CalendarNoEvents from './CalendarNoEvents.js';
+            export {CalendarNoEvents};
         
-            export * as Calendar from './Calendar.js';
+            import Calendar from './Calendar.js';
+            export {Calendar};
         
-            export * as CameraFill from './CameraFill.js';
+            import CameraFill from './CameraFill.js';
+            export {CameraFill};
         
-            export * as Canais from './Canais.js';
+            import Canais from './Canais.js';
+            export {Canais};
         
-            export * as Cards from './Cards.js';
+            import Cards from './Cards.js';
+            export {Cards};
         
-            export * as Caret from './Caret.js';
+            import Caret from './Caret.js';
+            export {Caret};
         
-            export * as Cart from './Cart.js';
+            import Cart from './Cart.js';
+            export {Cart};
         
-            export * as Carteira from './Carteira.js';
+            import Carteira from './Carteira.js';
+            export {Carteira};
         
-            export * as ChartArea from './ChartArea.js';
+            import ChartArea from './ChartArea.js';
+            export {ChartArea};
         
-            export * as ChartBars from './ChartBars.js';
+            import ChartBars from './ChartBars.js';
+            export {ChartBars};
         
-            export * as ChartBoard from './ChartBoard.js';
+            import ChartBoard from './ChartBoard.js';
+            export {ChartBoard};
         
-            export * as ChartCamera from './ChartCamera.js';
+            import ChartCamera from './ChartCamera.js';
+            export {ChartCamera};
         
-            export * as ChartCandles from './ChartCandles.js';
+            import ChartCandles from './ChartCandles.js';
+            export {ChartCandles};
         
-            export * as ChartCompare from './ChartCompare.js';
+            import ChartCompare from './ChartCompare.js';
+            export {ChartCompare};
         
-            export * as ChartDo from './ChartDo.js';
+            import ChartDo from './ChartDo.js';
+            export {ChartDo};
         
-            export * as ChartFunction from './ChartFunction.js';
+            import ChartFunction from './ChartFunction.js';
+            export {ChartFunction};
         
-            export * as ChartLine from './ChartLine.js';
+            import ChartLine from './ChartLine.js';
+            export {ChartLine};
         
-            export * as ChartSave from './ChartSave.js';
+            import ChartSave from './ChartSave.js';
+            export {ChartSave};
         
-            export * as ChartUndo from './ChartUndo.js';
+            import ChartUndo from './ChartUndo.js';
+            export {ChartUndo};
         
-            export * as Chart from './Chart.js';
+            import Chart from './Chart.js';
+            export {Chart};
         
-            export * as Chat from './Chat.js';
+            import Chat from './Chat.js';
+            export {Chat};
         
-            export * as Check from './Check.js';
+            import Check from './Check.js';
+            export {Check};
         
-            export * as CircleMinus from './CircleMinus.js';
+            import CircleMinus from './CircleMinus.js';
+            export {CircleMinus};
         
-            export * as CirclePlus from './CirclePlus.js';
+            import CirclePlus from './CirclePlus.js';
+            export {CirclePlus};
         
-            export * as Clock from './Clock.js';
+            import Clock from './Clock.js';
+            export {Clock};
         
-            export * as CloseCircle from './CloseCircle.js';
+            import CloseCircle from './CloseCircle.js';
+            export {CloseCircle};
         
-            export * as Close from './Close.js';
+            import Close from './Close.js';
+            export {Close};
         
-            export * as CloudUpload from './CloudUpload.js';
+            import CloudUpload from './CloudUpload.js';
+            export {CloudUpload};
         
-            export * as Comment from './Comment.js';
+            import Comment from './Comment.js';
+            export {Comment};
         
-            export * as Company from './Company.js';
+            import Company from './Company.js';
+            export {Company};
         
-            export * as CompareProposals from './CompareProposals.js';
+            import CompareProposals from './CompareProposals.js';
+            export {CompareProposals};
         
-            export * as Copy from './Copy.js';
+            import Copy from './Copy.js';
+            export {Copy};
         
-            export * as CreditCardBack from './CreditCardBack.js';
+            import CreditCardBack from './CreditCardBack.js';
+            export {CreditCardBack};
         
-            export * as Crosshair from './Crosshair.js';
+            import Crosshair from './Crosshair.js';
+            export {Crosshair};
         
-            export * as Cursos from './Cursos.js';
+            import Cursos from './Cursos.js';
+            export {Cursos};
         
-            export * as DashBtg from './DashBtg.js';
+            import DashBtg from './DashBtg.js';
+            export {DashBtg};
         
-            export * as Dashboard from './Dashboard.js';
+            import Dashboard from './Dashboard.js';
+            export {Dashboard};
         
-            export * as Diretorio from './Diretorio.js';
+            import Diretorio from './Diretorio.js';
+            export {Diretorio};
         
-            export * as Download from './Download.js';
+            import Download from './Download.js';
+            export {Download};
         
-            export * as DrawArrow from './DrawArrow.js';
+            import DrawArrow from './DrawArrow.js';
+            export {DrawArrow};
         
-            export * as DrawCircle from './DrawCircle.js';
+            import DrawCircle from './DrawCircle.js';
+            export {DrawCircle};
         
-            export * as DrawFibonacciArc from './DrawFibonacciArc.js';
+            import DrawFibonacciArc from './DrawFibonacciArc.js';
+            export {DrawFibonacciArc};
         
-            export * as DrawFibonacciFan from './DrawFibonacciFan.js';
+            import DrawFibonacciFan from './DrawFibonacciFan.js';
+            export {DrawFibonacciFan};
         
-            export * as DrawFibonacciRetracement from './DrawFibonacciRetracement.js';
+            import DrawFibonacciRetracement from './DrawFibonacciRetracement.js';
+            export {DrawFibonacciRetracement};
         
-            export * as DrawFibonacciTimezone from './DrawFibonacciTimezone.js';
+            import DrawFibonacciTimezone from './DrawFibonacciTimezone.js';
+            export {DrawFibonacciTimezone};
         
-            export * as DrawHorizontalArrow from './DrawHorizontalArrow.js';
+            import DrawHorizontalArrow from './DrawHorizontalArrow.js';
+            export {DrawHorizontalArrow};
         
-            export * as DrawHorizontalLine from './DrawHorizontalLine.js';
+            import DrawHorizontalLine from './DrawHorizontalLine.js';
+            export {DrawHorizontalLine};
         
-            export * as DrawHorizontalRange from './DrawHorizontalRange.js';
+            import DrawHorizontalRange from './DrawHorizontalRange.js';
+            export {DrawHorizontalRange};
         
-            export * as DrawHorizontalRay from './DrawHorizontalRay.js';
+            import DrawHorizontalRay from './DrawHorizontalRay.js';
+            export {DrawHorizontalRay};
         
-            export * as DrawInfinity from './DrawInfinity.js';
+            import DrawInfinity from './DrawInfinity.js';
+            export {DrawInfinity};
         
-            export * as DrawMarker from './DrawMarker.js';
+            import DrawMarker from './DrawMarker.js';
+            export {DrawMarker};
         
-            export * as DrawPitchfork from './DrawPitchfork.js';
+            import DrawPitchfork from './DrawPitchfork.js';
+            export {DrawPitchfork};
         
-            export * as DrawRay from './DrawRay.js';
+            import DrawRay from './DrawRay.js';
+            export {DrawRay};
         
-            export * as DrawRetangle from './DrawRetangle.js';
+            import DrawRetangle from './DrawRetangle.js';
+            export {DrawRetangle};
         
-            export * as DrawText from './DrawText.js';
+            import DrawText from './DrawText.js';
+            export {DrawText};
         
-            export * as DrawTrendChannel from './DrawTrendChannel.js';
+            import DrawTrendChannel from './DrawTrendChannel.js';
+            export {DrawTrendChannel};
         
-            export * as DrawTrendLine from './DrawTrendLine.js';
+            import DrawTrendLine from './DrawTrendLine.js';
+            export {DrawTrendLine};
         
-            export * as DrawTriangle from './DrawTriangle.js';
+            import DrawTriangle from './DrawTriangle.js';
+            export {DrawTriangle};
         
-            export * as DrawVerticalLine from './DrawVerticalLine.js';
+            import DrawVerticalLine from './DrawVerticalLine.js';
+            export {DrawVerticalLine};
         
-            export * as DrawVerticalRange from './DrawVerticalRange.js';
+            import DrawVerticalRange from './DrawVerticalRange.js';
+            export {DrawVerticalRange};
         
-            export * as DrawnMarker from './DrawnMarker.js';
+            import DrawnMarker from './DrawnMarker.js';
+            export {DrawnMarker};
         
-            export * as Edit2 from './Edit2.js';
+            import Edit2 from './Edit2.js';
+            export {Edit2};
         
-            export * as EditAtSign from './EditAtSign.js';
+            import EditAtSign from './EditAtSign.js';
+            export {EditAtSign};
         
-            export * as EditAttach from './EditAttach.js';
+            import EditAttach from './EditAttach.js';
+            export {EditAttach};
         
-            export * as EditBold from './EditBold.js';
+            import EditBold from './EditBold.js';
+            export {EditBold};
         
-            export * as EditCenterAlign from './EditCenterAlign.js';
+            import EditCenterAlign from './EditCenterAlign.js';
+            export {EditCenterAlign};
         
-            export * as EditImage from './EditImage.js';
+            import EditImage from './EditImage.js';
+            export {EditImage};
         
-            export * as EditIndentLeft from './EditIndentLeft.js';
+            import EditIndentLeft from './EditIndentLeft.js';
+            export {EditIndentLeft};
         
-            export * as EditIndentRight from './EditIndentRight.js';
+            import EditIndentRight from './EditIndentRight.js';
+            export {EditIndentRight};
         
-            export * as EditItalic from './EditItalic.js';
+            import EditItalic from './EditItalic.js';
+            export {EditItalic};
         
-            export * as EditLeftAlign from './EditLeftAlign.js';
+            import EditLeftAlign from './EditLeftAlign.js';
+            export {EditLeftAlign};
         
-            export * as EditLink from './EditLink.js';
+            import EditLink from './EditLink.js';
+            export {EditLink};
         
-            export * as EditNumberList from './EditNumberList.js';
+            import EditNumberList from './EditNumberList.js';
+            export {EditNumberList};
         
-            export * as EditPointList from './EditPointList.js';
+            import EditPointList from './EditPointList.js';
+            export {EditPointList};
         
-            export * as EditQuoteMark from './EditQuoteMark.js';
+            import EditQuoteMark from './EditQuoteMark.js';
+            export {EditQuoteMark};
         
-            export * as EditRightAlign from './EditRightAlign.js';
+            import EditRightAlign from './EditRightAlign.js';
+            export {EditRightAlign};
         
-            export * as EditStrikethrough from './EditStrikethrough.js';
+            import EditStrikethrough from './EditStrikethrough.js';
+            export {EditStrikethrough};
         
-            export * as EditUnderline from './EditUnderline.js';
+            import EditUnderline from './EditUnderline.js';
+            export {EditUnderline};
         
-            export * as Edit from './Edit.js';
+            import Edit from './Edit.js';
+            export {Edit};
         
-            export * as EmojiAdd from './EmojiAdd.js';
+            import EmojiAdd from './EmojiAdd.js';
+            export {EmojiAdd};
         
-            export * as EmojiSad from './EmojiSad.js';
+            import EmojiSad from './EmojiSad.js';
+            export {EmojiSad};
         
-            export * as Equity from './Equity.js';
+            import Equity from './Equity.js';
+            export {Equity};
         
-            export * as FileDoc from './FileDoc.js';
+            import FileDoc from './FileDoc.js';
+            export {FileDoc};
         
-            export * as FileEmpty from './FileEmpty.js';
+            import FileEmpty from './FileEmpty.js';
+            export {FileEmpty};
         
-            export * as FileMp3 from './FileMp3.js';
+            import FileMp3 from './FileMp3.js';
+            export {FileMp3};
         
-            export * as FilePdf from './FilePdf.js';
+            import FilePdf from './FilePdf.js';
+            export {FilePdf};
         
-            export * as FilePpt from './FilePpt.js';
+            import FilePpt from './FilePpt.js';
+            export {FilePpt};
         
-            export * as FileText from './FileText.js';
+            import FileText from './FileText.js';
+            export {FileText};
         
-            export * as FileXls from './FileXls.js';
+            import FileXls from './FileXls.js';
+            export {FileXls};
         
-            export * as FileXml from './FileXml.js';
+            import FileXml from './FileXml.js';
+            export {FileXml};
         
-            export * as Filter from './Filter.js';
+            import Filter from './Filter.js';
+            export {Filter};
         
-            export * as Gift from './Gift.js';
+            import Gift from './Gift.js';
+            export {Gift};
         
-            export * as GripHorizontalLine from './GripHorizontalLine.js';
+            import GripHorizontalLine from './GripHorizontalLine.js';
+            export {GripHorizontalLine};
         
-            export * as GripHorizontalPoint from './GripHorizontalPoint.js';
+            import GripHorizontalPoint from './GripHorizontalPoint.js';
+            export {GripHorizontalPoint};
         
-            export * as GripVerticalLine from './GripVerticalLine.js';
+            import GripVerticalLine from './GripVerticalLine.js';
+            export {GripVerticalLine};
         
-            export * as GripVerticalPoint from './GripVerticalPoint.js';
+            import GripVerticalPoint from './GripVerticalPoint.js';
+            export {GripVerticalPoint};
         
-            export * as Headphone from './Headphone.js';
+            import Headphone from './Headphone.js';
+            export {Headphone};
         
-            export * as Headphones from './Headphones.js';
+            import Headphones from './Headphones.js';
+            export {Headphones};
         
-            export * as Help from './Help.js';
+            import Help from './Help.js';
+            export {Help};
         
-            export * as Hide from './Hide.js';
+            import Hide from './Hide.js';
+            export {Hide};
         
-            export * as Home from './Home.js';
+            import Home from './Home.js';
+            export {Home};
         
-            export * as HourGlass from './HourGlass.js';
+            import HourGlass from './HourGlass.js';
+            export {HourGlass};
         
-            export * as IdeasEmptyStateFollowing from './IdeasEmptyStateFollowing.js';
+            import IdeasEmptyStateFollowing from './IdeasEmptyStateFollowing.js';
+            export {IdeasEmptyStateFollowing};
         
-            export * as IdeasEmptyStateMasterRequired from './IdeasEmptyStateMasterRequired.js';
+            import IdeasEmptyStateMasterRequired from './IdeasEmptyStateMasterRequired.js';
+            export {IdeasEmptyStateMasterRequired};
         
-            export * as ImageFill from './ImageFill.js';
+            import ImageFill from './ImageFill.js';
+            export {ImageFill};
         
-            export * as Indicator from './Indicator.js';
+            import Indicator from './Indicator.js';
+            export {Indicator};
         
-            export * as Influencers from './Influencers.js';
+            import Influencers from './Influencers.js';
+            export {Influencers};
         
-            export * as InfoCircle from './InfoCircle.js';
+            import InfoCircle from './InfoCircle.js';
+            export {InfoCircle};
         
-            export * as List from './List.js';
+            import List from './List.js';
+            export {List};
         
-            export * as LoadingDefault from './LoadingDefault.js';
+            import LoadingDefault from './LoadingDefault.js';
+            export {LoadingDefault};
         
-            export * as Lock from './Lock.js';
+            import Lock from './Lock.js';
+            export {Lock};
         
-            export * as Locked from './Locked.js';
+            import Locked from './Locked.js';
+            export {Locked};
         
-            export * as LogOut from './LogOut.js';
+            import LogOut from './LogOut.js';
+            export {LogOut};
         
-            export * as Master from './Master.js';
+            import Master from './Master.js';
+            export {Master};
         
-            export * as Matrix from './Matrix.js';
+            import Matrix from './Matrix.js';
+            export {Matrix};
         
-            export * as Maximize from './Maximize.js';
+            import Maximize from './Maximize.js';
+            export {Maximize};
         
-            export * as Megaphone from './Megaphone.js';
+            import Megaphone from './Megaphone.js';
+            export {Megaphone};
         
-            export * as Menu from './Menu.js';
+            import Menu from './Menu.js';
+            export {Menu};
         
-            export * as Minimize from './Minimize.js';
+            import Minimize from './Minimize.js';
+            export {Minimize};
         
-            export * as MoneyBagFill from './MoneyBagFill.js';
+            import MoneyBagFill from './MoneyBagFill.js';
+            export {MoneyBagFill};
         
-            export * as MoneyBag from './MoneyBag.js';
+            import MoneyBag from './MoneyBag.js';
+            export {MoneyBag};
         
-            export * as MoneyCoin from './MoneyCoin.js';
+            import MoneyCoin from './MoneyCoin.js';
+            export {MoneyCoin};
         
-            export * as MoneySign from './MoneySign.js';
+            import MoneySign from './MoneySign.js';
+            export {MoneySign};
         
-            export * as MoreOptionsHorizontal from './MoreOptionsHorizontal.js';
+            import MoreOptionsHorizontal from './MoreOptionsHorizontal.js';
+            export {MoreOptionsHorizontal};
         
-            export * as MoreOptionsVertical from './MoreOptionsVertical.js';
+            import MoreOptionsVertical from './MoreOptionsVertical.js';
+            export {MoreOptionsVertical};
         
-            export * as Move from './Move.js';
+            import Move from './Move.js';
+            export {Move};
         
-            export * as Mover from './Mover.js';
+            import Mover from './Mover.js';
+            export {Mover};
         
-            export * as Mute from './Mute.js';
+            import Mute from './Mute.js';
+            export {Mute};
         
-            export * as NotificationFill from './NotificationFill.js';
+            import NotificationFill from './NotificationFill.js';
+            export {NotificationFill};
         
-            export * as Notification from './Notification.js';
+            import Notification from './Notification.js';
+            export {Notification};
         
-            export * as PatchCheck from './PatchCheck.js';
+            import PatchCheck from './PatchCheck.js';
+            export {PatchCheck};
         
-            export * as PaymentMastercard from './PaymentMastercard.js';
+            import PaymentMastercard from './PaymentMastercard.js';
+            export {PaymentMastercard};
         
-            export * as Pen from './Pen.js';
+            import Pen from './Pen.js';
+            export {Pen};
         
-            export * as Percentage from './Percentage.js';
+            import Percentage from './Percentage.js';
+            export {Percentage};
         
-            export * as Pin from './Pin.js';
+            import Pin from './Pin.js';
+            export {Pin};
         
-            export * as Plantao from './Plantao.js';
+            import Plantao from './Plantao.js';
+            export {Plantao};
         
-            export * as Play from './Play.js';
+            import Play from './Play.js';
+            export {Play};
         
-            export * as Plus from './Plus.js';
+            import Plus from './Plus.js';
+            export {Plus};
         
-            export * as ProposalDetails from './ProposalDetails.js';
+            import ProposalDetails from './ProposalDetails.js';
+            export {ProposalDetails};
         
-            export * as RadioMic from './RadioMic.js';
+            import RadioMic from './RadioMic.js';
+            export {RadioMic};
         
-            export * as Radio from './Radio.js';
+            import Radio from './Radio.js';
+            export {Radio};
         
-            export * as Ranking from './Ranking.js';
+            import Ranking from './Ranking.js';
+            export {Ranking};
         
-            export * as RefreshSlash from './RefreshSlash.js';
+            import RefreshSlash from './RefreshSlash.js';
+            export {RefreshSlash};
         
-            export * as Refresh from './Refresh.js';
+            import Refresh from './Refresh.js';
+            export {Refresh};
         
-            export * as Reports from './Reports.js';
+            import Reports from './Reports.js';
+            export {Reports};
         
-            export * as Revert from './Revert.js';
+            import Revert from './Revert.js';
+            export {Revert};
         
-            export * as Search from './Search.js';
+            import Search from './Search.js';
+            export {Search};
         
-            export * as Selector from './Selector.js';
+            import Selector from './Selector.js';
+            export {Selector};
         
-            export * as Sell from './Sell.js';
+            import Sell from './Sell.js';
+            export {Sell};
         
-            export * as Send from './Send.js';
+            import Send from './Send.js';
+            export {Send};
         
-            export * as Settings from './Settings.js';
+            import Settings from './Settings.js';
+            export {Settings};
         
-            export * as Share from './Share.js';
+            import Share from './Share.js';
+            export {Share};
         
-            export * as ShieldCheck from './ShieldCheck.js';
+            import ShieldCheck from './ShieldCheck.js';
+            export {ShieldCheck};
         
-            export * as Shield from './Shield.js';
+            import Shield from './Shield.js';
+            export {Shield};
         
-            export * as Show from './Show.js';
+            import Show from './Show.js';
+            export {Show};
         
-            export * as SlidersVertical from './SlidersVertical.js';
+            import SlidersVertical from './SlidersVertical.js';
+            export {SlidersVertical};
         
-            export * as Sliders from './Sliders.js';
+            import Sliders from './Sliders.js';
+            export {Sliders};
         
-            export * as SoundOn from './SoundOn.js';
+            import SoundOn from './SoundOn.js';
+            export {SoundOn};
         
-            export * as Speakerphone from './Speakerphone.js';
+            import Speakerphone from './Speakerphone.js';
+            export {Speakerphone};
         
-            export * as Star from './Star.js';
+            import Star from './Star.js';
+            export {Star};
         
-            export * as Store from './Store.js';
+            import Store from './Store.js';
+            export {Store};
         
-            export * as SuitabilityTestResult from './SuitabilityTestResult.js';
+            import SuitabilityTestResult from './SuitabilityTestResult.js';
+            export {SuitabilityTestResult};
         
-            export * as SuitabilityTest from './SuitabilityTest.js';
+            import SuitabilityTest from './SuitabilityTest.js';
+            export {SuitabilityTest};
         
-            export * as Support from './Support.js';
+            import Support from './Support.js';
+            export {Support};
         
-            export * as TcMarkerDown from './TcMarkerDown.js';
+            import TcMarkerDown from './TcMarkerDown.js';
+            export {TcMarkerDown};
         
-            export * as TcOptions from './TcOptions.js';
+            import TcOptions from './TcOptions.js';
+            export {TcOptions};
         
-            export * as ThumbDown from './ThumbDown.js';
+            import ThumbDown from './ThumbDown.js';
+            export {ThumbDown};
         
-            export * as ThumbUp from './ThumbUp.js';
+            import ThumbUp from './ThumbUp.js';
+            export {ThumbUp};
         
-            export * as TimeEvent from './TimeEvent.js';
+            import TimeEvent from './TimeEvent.js';
+            export {TimeEvent};
         
-            export * as ToggleOff from './ToggleOff.js';
+            import ToggleOff from './ToggleOff.js';
+            export {ToggleOff};
         
-            export * as ToggleOn from './ToggleOn.js';
+            import ToggleOn from './ToggleOn.js';
+            export {ToggleOn};
         
-            export * as Tools from './Tools.js';
+            import Tools from './Tools.js';
+            export {Tools};
         
-            export * as Torneio from './Torneio.js';
+            import Torneio from './Torneio.js';
+            export {Torneio};
         
-            export * as TradeIdeas from './TradeIdeas.js';
+            import TradeIdeas from './TradeIdeas.js';
+            export {TradeIdeas};
         
-            export * as Trash from './Trash.js';
+            import Trash from './Trash.js';
+            export {Trash};
         
-            export * as Upload from './Upload.js';
+            import Upload from './Upload.js';
+            export {Upload};
         
-            export * as UserAdd from './UserAdd.js';
+            import UserAdd from './UserAdd.js';
+            export {UserAdd};
         
-            export * as UserList from './UserList.js';
+            import UserList from './UserList.js';
+            export {UserList};
         
-            export * as User from './User.js';
+            import User from './User.js';
+            export {User};
         
-            export * as Users from './Users.js';
+            import Users from './Users.js';
+            export {Users};
         
-            export * as Video from './Video.js';
+            import Video from './Video.js';
+            export {Video};
         
-            export * as Voucher from './Voucher.js';
+            import Voucher from './Voucher.js';
+            export {Voucher};
         
-            export * as Wealth from './Wealth.js';
+            import Wealth from './Wealth.js';
+            export {Wealth};
         
