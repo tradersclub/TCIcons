@@ -35,7 +35,7 @@ for (file of files) {
         import * as React from 'react';
 
         const ${name} = (props) => {
-            return React.createElement('div', {dangerouslySetInnerHTML:{__html:\`
+            return React.createElement('object', {dangerouslySetInnerHTML:{__html:\`
                 ${content}
             \`}}
             
