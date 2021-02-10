@@ -2,7 +2,7 @@
         import * as React from 'react';
 
         const IconPaymentMastercard = (props) => {
-            return React.createElement('object', {dangerouslySetInnerHTML:{__html:`
+            return React.createElement('object', {style: props.style, dangerouslySetInnerHTML:{__html:`
                 <svg xmlns="http://www.w3.org/2000/svg" width="${props.size}" height="${props.size}" fill="${props.color}" viewBox="0 0 32 32">
   <g class="payment-mastercard">
     <g class="Group 83">
