@@ -1,635 +1,635 @@
 
 
-            import TcSchool from './TcSchool.js';
-            export {TcSchool};
+            import IconTcSchool from './IconTcSchool.js';
+            export {IconTcSchool};
         
-            import AlertFill from './AlertFill.js';
-            export {AlertFill};
+            import IconAlertFill from './IconAlertFill.js';
+            export {IconAlertFill};
         
-            import Alert from './Alert.js';
-            export {Alert};
+            import IconAlert from './IconAlert.js';
+            export {IconAlert};
         
-            import ArrowAngleContract from './ArrowAngleContract.js';
-            export {ArrowAngleContract};
+            import IconArrowAngleContract from './IconArrowAngleContract.js';
+            export {IconArrowAngleContract};
         
-            import ArrowAngleExpand from './ArrowAngleExpand.js';
-            export {ArrowAngleExpand};
+            import IconArrowAngleExpand from './IconArrowAngleExpand.js';
+            export {IconArrowAngleExpand};
         
-            import ArrowBack from './ArrowBack.js';
-            export {ArrowBack};
+            import IconArrowBack from './IconArrowBack.js';
+            export {IconArrowBack};
         
-            import ArrowBoxExternalLink from './ArrowBoxExternalLink.js';
-            export {ArrowBoxExternalLink};
+            import IconArrowBoxExternalLink from './IconArrowBoxExternalLink.js';
+            export {IconArrowBoxExternalLink};
         
-            import ArrowCircleLeft from './ArrowCircleLeft.js';
-            export {ArrowCircleLeft};
+            import IconArrowCircleLeft from './IconArrowCircleLeft.js';
+            export {IconArrowCircleLeft};
         
-            import ArrowCircleRight from './ArrowCircleRight.js';
-            export {ArrowCircleRight};
+            import IconArrowCircleRight from './IconArrowCircleRight.js';
+            export {IconArrowCircleRight};
         
-            import ArrowExternalLink from './ArrowExternalLink.js';
-            export {ArrowExternalLink};
+            import IconArrowExternalLink from './IconArrowExternalLink.js';
+            export {IconArrowExternalLink};
         
-            import ArrowLargeDown from './ArrowLargeDown.js';
-            export {ArrowLargeDown};
+            import IconArrowLargeDown from './IconArrowLargeDown.js';
+            export {IconArrowLargeDown};
         
-            import ArrowLargeLeft from './ArrowLargeLeft.js';
-            export {ArrowLargeLeft};
+            import IconArrowLargeLeft from './IconArrowLargeLeft.js';
+            export {IconArrowLargeLeft};
         
-            import ArrowLargeRight from './ArrowLargeRight.js';
-            export {ArrowLargeRight};
+            import IconArrowLargeRight from './IconArrowLargeRight.js';
+            export {IconArrowLargeRight};
         
-            import ArrowLargeUp from './ArrowLargeUp.js';
-            export {ArrowLargeUp};
+            import IconArrowLargeUp from './IconArrowLargeUp.js';
+            export {IconArrowLargeUp};
         
-            import ArrowPageLeft from './ArrowPageLeft.js';
-            export {ArrowPageLeft};
+            import IconArrowPageLeft from './IconArrowPageLeft.js';
+            export {IconArrowPageLeft};
         
-            import ArrowPageRight from './ArrowPageRight.js';
-            export {ArrowPageRight};
+            import IconArrowPageRight from './IconArrowPageRight.js';
+            export {IconArrowPageRight};
         
-            import ArrowSmallDown from './ArrowSmallDown.js';
-            export {ArrowSmallDown};
+            import IconArrowSmallDown from './IconArrowSmallDown.js';
+            export {IconArrowSmallDown};
         
-            import ArrowSmallLeft from './ArrowSmallLeft.js';
-            export {ArrowSmallLeft};
+            import IconArrowSmallLeft from './IconArrowSmallLeft.js';
+            export {IconArrowSmallLeft};
         
-            import ArrowSmallRight from './ArrowSmallRight.js';
-            export {ArrowSmallRight};
+            import IconArrowSmallRight from './IconArrowSmallRight.js';
+            export {IconArrowSmallRight};
         
-            import ArrowSmallUp from './ArrowSmallUp.js';
-            export {ArrowSmallUp};
+            import IconArrowSmallUp from './IconArrowSmallUp.js';
+            export {IconArrowSmallUp};
         
-            import AtSign from './AtSign.js';
-            export {AtSign};
+            import IconAtSign from './IconAtSign.js';
+            export {IconAtSign};
         
-            import Award from './Award.js';
-            export {Award};
+            import IconAward from './IconAward.js';
+            export {IconAward};
         
-            import Bag from './Bag.js';
-            export {Bag};
+            import IconBag from './IconBag.js';
+            export {IconBag};
         
-            import Blog from './Blog.js';
-            export {Blog};
+            import IconBlog from './IconBlog.js';
+            export {IconBlog};
         
-            import Bookmark from './Bookmark.js';
-            export {Bookmark};
+            import IconBookmark from './IconBookmark.js';
+            export {IconBookmark};
         
-            import Buy from './Buy.js';
-            export {Buy};
+            import IconBuy from './IconBuy.js';
+            export {IconBuy};
         
-            import Calculator from './Calculator.js';
-            export {Calculator};
+            import IconCalculator from './IconCalculator.js';
+            export {IconCalculator};
         
-            import CalendarAdd from './CalendarAdd.js';
-            export {CalendarAdd};
+            import IconCalendarAdd from './IconCalendarAdd.js';
+            export {IconCalendarAdd};
         
-            import CalendarNoEvents from './CalendarNoEvents.js';
-            export {CalendarNoEvents};
+            import IconCalendarNoEvents from './IconCalendarNoEvents.js';
+            export {IconCalendarNoEvents};
         
-            import Calendar from './Calendar.js';
-            export {Calendar};
+            import IconCalendar from './IconCalendar.js';
+            export {IconCalendar};
         
-            import CameraFill from './CameraFill.js';
-            export {CameraFill};
+            import IconCameraFill from './IconCameraFill.js';
+            export {IconCameraFill};
         
-            import Canais from './Canais.js';
-            export {Canais};
+            import IconCanais from './IconCanais.js';
+            export {IconCanais};
         
-            import Cards from './Cards.js';
-            export {Cards};
+            import IconCards from './IconCards.js';
+            export {IconCards};
         
-            import Caret from './Caret.js';
-            export {Caret};
+            import IconCaret from './IconCaret.js';
+            export {IconCaret};
         
-            import Cart from './Cart.js';
-            export {Cart};
+            import IconCart from './IconCart.js';
+            export {IconCart};
         
-            import Carteira from './Carteira.js';
-            export {Carteira};
+            import IconCarteira from './IconCarteira.js';
+            export {IconCarteira};
         
-            import ChartArea from './ChartArea.js';
-            export {ChartArea};
+            import IconChartArea from './IconChartArea.js';
+            export {IconChartArea};
         
-            import ChartBars from './ChartBars.js';
-            export {ChartBars};
+            import IconChartBars from './IconChartBars.js';
+            export {IconChartBars};
         
-            import ChartBoard from './ChartBoard.js';
-            export {ChartBoard};
+            import IconChartBoard from './IconChartBoard.js';
+            export {IconChartBoard};
         
-            import ChartCamera from './ChartCamera.js';
-            export {ChartCamera};
+            import IconChartCamera from './IconChartCamera.js';
+            export {IconChartCamera};
         
-            import ChartCandles from './ChartCandles.js';
-            export {ChartCandles};
+            import IconChartCandles from './IconChartCandles.js';
+            export {IconChartCandles};
         
-            import ChartCompare from './ChartCompare.js';
-            export {ChartCompare};
+            import IconChartCompare from './IconChartCompare.js';
+            export {IconChartCompare};
         
-            import ChartDo from './ChartDo.js';
-            export {ChartDo};
+            import IconChartDo from './IconChartDo.js';
+            export {IconChartDo};
         
-            import ChartFunction from './ChartFunction.js';
-            export {ChartFunction};
+            import IconChartFunction from './IconChartFunction.js';
+            export {IconChartFunction};
         
-            import ChartLine from './ChartLine.js';
-            export {ChartLine};
+            import IconChartLine from './IconChartLine.js';
+            export {IconChartLine};
         
-            import ChartSave from './ChartSave.js';
-            export {ChartSave};
+            import IconChartSave from './IconChartSave.js';
+            export {IconChartSave};
         
-            import ChartUndo from './ChartUndo.js';
-            export {ChartUndo};
+            import IconChartUndo from './IconChartUndo.js';
+            export {IconChartUndo};
         
-            import Chart from './Chart.js';
-            export {Chart};
+            import IconChart from './IconChart.js';
+            export {IconChart};
         
-            import Chat from './Chat.js';
-            export {Chat};
+            import IconChat from './IconChat.js';
+            export {IconChat};
         
-            import Check from './Check.js';
-            export {Check};
+            import IconCheck from './IconCheck.js';
+            export {IconCheck};
         
-            import CircleMinus from './CircleMinus.js';
-            export {CircleMinus};
+            import IconCircleMinus from './IconCircleMinus.js';
+            export {IconCircleMinus};
         
-            import CirclePlus from './CirclePlus.js';
-            export {CirclePlus};
+            import IconCirclePlus from './IconCirclePlus.js';
+            export {IconCirclePlus};
         
-            import Clock from './Clock.js';
-            export {Clock};
+            import IconClock from './IconClock.js';
+            export {IconClock};
         
-            import CloseCircle from './CloseCircle.js';
-            export {CloseCircle};
+            import IconCloseCircle from './IconCloseCircle.js';
+            export {IconCloseCircle};
         
-            import Close from './Close.js';
-            export {Close};
+            import IconClose from './IconClose.js';
+            export {IconClose};
         
-            import CloudUpload from './CloudUpload.js';
-            export {CloudUpload};
+            import IconCloudUpload from './IconCloudUpload.js';
+            export {IconCloudUpload};
         
-            import Comment from './Comment.js';
-            export {Comment};
+            import IconComment from './IconComment.js';
+            export {IconComment};
         
-            import Company from './Company.js';
-            export {Company};
+            import IconCompany from './IconCompany.js';
+            export {IconCompany};
         
-            import CompareProposals from './CompareProposals.js';
-            export {CompareProposals};
+            import IconCompareProposals from './IconCompareProposals.js';
+            export {IconCompareProposals};
         
-            import Copy from './Copy.js';
-            export {Copy};
+            import IconCopy from './IconCopy.js';
+            export {IconCopy};
         
-            import CreditCardBack from './CreditCardBack.js';
-            export {CreditCardBack};
+            import IconCreditCardBack from './IconCreditCardBack.js';
+            export {IconCreditCardBack};
         
-            import Crosshair from './Crosshair.js';
-            export {Crosshair};
+            import IconCrosshair from './IconCrosshair.js';
+            export {IconCrosshair};
         
-            import Cursos from './Cursos.js';
-            export {Cursos};
+            import IconCursos from './IconCursos.js';
+            export {IconCursos};
         
-            import DashBtg from './DashBtg.js';
-            export {DashBtg};
+            import IconDashBtg from './IconDashBtg.js';
+            export {IconDashBtg};
         
-            import Dashboard from './Dashboard.js';
-            export {Dashboard};
+            import IconDashboard from './IconDashboard.js';
+            export {IconDashboard};
         
-            import Diretorio from './Diretorio.js';
-            export {Diretorio};
+            import IconDiretorio from './IconDiretorio.js';
+            export {IconDiretorio};
         
-            import Download from './Download.js';
-            export {Download};
+            import IconDownload from './IconDownload.js';
+            export {IconDownload};
         
-            import DrawArrow from './DrawArrow.js';
-            export {DrawArrow};
+            import IconDrawArrow from './IconDrawArrow.js';
+            export {IconDrawArrow};
         
-            import DrawCircle from './DrawCircle.js';
-            export {DrawCircle};
+            import IconDrawCircle from './IconDrawCircle.js';
+            export {IconDrawCircle};
         
-            import DrawFibonacciArc from './DrawFibonacciArc.js';
-            export {DrawFibonacciArc};
+            import IconDrawFibonacciArc from './IconDrawFibonacciArc.js';
+            export {IconDrawFibonacciArc};
         
-            import DrawFibonacciFan from './DrawFibonacciFan.js';
-            export {DrawFibonacciFan};
+            import IconDrawFibonacciFan from './IconDrawFibonacciFan.js';
+            export {IconDrawFibonacciFan};
         
-            import DrawFibonacciRetracement from './DrawFibonacciRetracement.js';
-            export {DrawFibonacciRetracement};
+            import IconDrawFibonacciRetracement from './IconDrawFibonacciRetracement.js';
+            export {IconDrawFibonacciRetracement};
         
-            import DrawFibonacciTimezone from './DrawFibonacciTimezone.js';
-            export {DrawFibonacciTimezone};
+            import IconDrawFibonacciTimezone from './IconDrawFibonacciTimezone.js';
+            export {IconDrawFibonacciTimezone};
         
-            import DrawHorizontalArrow from './DrawHorizontalArrow.js';
-            export {DrawHorizontalArrow};
+            import IconDrawHorizontalArrow from './IconDrawHorizontalArrow.js';
+            export {IconDrawHorizontalArrow};
         
-            import DrawHorizontalLine from './DrawHorizontalLine.js';
-            export {DrawHorizontalLine};
+            import IconDrawHorizontalLine from './IconDrawHorizontalLine.js';
+            export {IconDrawHorizontalLine};
         
-            import DrawHorizontalRange from './DrawHorizontalRange.js';
-            export {DrawHorizontalRange};
+            import IconDrawHorizontalRange from './IconDrawHorizontalRange.js';
+            export {IconDrawHorizontalRange};
         
-            import DrawHorizontalRay from './DrawHorizontalRay.js';
-            export {DrawHorizontalRay};
+            import IconDrawHorizontalRay from './IconDrawHorizontalRay.js';
+            export {IconDrawHorizontalRay};
         
-            import DrawInfinity from './DrawInfinity.js';
-            export {DrawInfinity};
+            import IconDrawInfinity from './IconDrawInfinity.js';
+            export {IconDrawInfinity};
         
-            import DrawMarker from './DrawMarker.js';
-            export {DrawMarker};
+            import IconDrawMarker from './IconDrawMarker.js';
+            export {IconDrawMarker};
         
-            import DrawPitchfork from './DrawPitchfork.js';
-            export {DrawPitchfork};
+            import IconDrawPitchfork from './IconDrawPitchfork.js';
+            export {IconDrawPitchfork};
         
-            import DrawRay from './DrawRay.js';
-            export {DrawRay};
+            import IconDrawRay from './IconDrawRay.js';
+            export {IconDrawRay};
         
-            import DrawRetangle from './DrawRetangle.js';
-            export {DrawRetangle};
+            import IconDrawRetangle from './IconDrawRetangle.js';
+            export {IconDrawRetangle};
         
-            import DrawText from './DrawText.js';
-            export {DrawText};
+            import IconDrawText from './IconDrawText.js';
+            export {IconDrawText};
         
-            import DrawTrendChannel from './DrawTrendChannel.js';
-            export {DrawTrendChannel};
+            import IconDrawTrendChannel from './IconDrawTrendChannel.js';
+            export {IconDrawTrendChannel};
         
-            import DrawTrendLine from './DrawTrendLine.js';
-            export {DrawTrendLine};
+            import IconDrawTrendLine from './IconDrawTrendLine.js';
+            export {IconDrawTrendLine};
         
-            import DrawTriangle from './DrawTriangle.js';
-            export {DrawTriangle};
+            import IconDrawTriangle from './IconDrawTriangle.js';
+            export {IconDrawTriangle};
         
-            import DrawVerticalLine from './DrawVerticalLine.js';
-            export {DrawVerticalLine};
+            import IconDrawVerticalLine from './IconDrawVerticalLine.js';
+            export {IconDrawVerticalLine};
         
-            import DrawVerticalRange from './DrawVerticalRange.js';
-            export {DrawVerticalRange};
+            import IconDrawVerticalRange from './IconDrawVerticalRange.js';
+            export {IconDrawVerticalRange};
         
-            import DrawnMarker from './DrawnMarker.js';
-            export {DrawnMarker};
+            import IconDrawnMarker from './IconDrawnMarker.js';
+            export {IconDrawnMarker};
         
-            import Edit2 from './Edit2.js';
-            export {Edit2};
+            import IconEdit2 from './IconEdit2.js';
+            export {IconEdit2};
         
-            import EditAtSign from './EditAtSign.js';
-            export {EditAtSign};
+            import IconEditAtSign from './IconEditAtSign.js';
+            export {IconEditAtSign};
         
-            import EditAttach from './EditAttach.js';
-            export {EditAttach};
+            import IconEditAttach from './IconEditAttach.js';
+            export {IconEditAttach};
         
-            import EditBold from './EditBold.js';
-            export {EditBold};
+            import IconEditBold from './IconEditBold.js';
+            export {IconEditBold};
         
-            import EditCenterAlign from './EditCenterAlign.js';
-            export {EditCenterAlign};
+            import IconEditCenterAlign from './IconEditCenterAlign.js';
+            export {IconEditCenterAlign};
         
-            import EditImage from './EditImage.js';
-            export {EditImage};
+            import IconEditImage from './IconEditImage.js';
+            export {IconEditImage};
         
-            import EditIndentLeft from './EditIndentLeft.js';
-            export {EditIndentLeft};
+            import IconEditIndentLeft from './IconEditIndentLeft.js';
+            export {IconEditIndentLeft};
         
-            import EditIndentRight from './EditIndentRight.js';
-            export {EditIndentRight};
+            import IconEditIndentRight from './IconEditIndentRight.js';
+            export {IconEditIndentRight};
         
-            import EditItalic from './EditItalic.js';
-            export {EditItalic};
+            import IconEditItalic from './IconEditItalic.js';
+            export {IconEditItalic};
         
-            import EditLeftAlign from './EditLeftAlign.js';
-            export {EditLeftAlign};
+            import IconEditLeftAlign from './IconEditLeftAlign.js';
+            export {IconEditLeftAlign};
         
-            import EditLink from './EditLink.js';
-            export {EditLink};
+            import IconEditLink from './IconEditLink.js';
+            export {IconEditLink};
         
-            import EditNumberList from './EditNumberList.js';
-            export {EditNumberList};
+            import IconEditNumberList from './IconEditNumberList.js';
+            export {IconEditNumberList};
         
-            import EditPointList from './EditPointList.js';
-            export {EditPointList};
+            import IconEditPointList from './IconEditPointList.js';
+            export {IconEditPointList};
         
-            import EditQuoteMark from './EditQuoteMark.js';
-            export {EditQuoteMark};
+            import IconEditQuoteMark from './IconEditQuoteMark.js';
+            export {IconEditQuoteMark};
         
-            import EditRightAlign from './EditRightAlign.js';
-            export {EditRightAlign};
+            import IconEditRightAlign from './IconEditRightAlign.js';
+            export {IconEditRightAlign};
         
-            import EditStrikethrough from './EditStrikethrough.js';
-            export {EditStrikethrough};
+            import IconEditStrikethrough from './IconEditStrikethrough.js';
+            export {IconEditStrikethrough};
         
-            import EditUnderline from './EditUnderline.js';
-            export {EditUnderline};
+            import IconEditUnderline from './IconEditUnderline.js';
+            export {IconEditUnderline};
         
-            import Edit from './Edit.js';
-            export {Edit};
+            import IconEdit from './IconEdit.js';
+            export {IconEdit};
         
-            import EmojiAdd from './EmojiAdd.js';
-            export {EmojiAdd};
+            import IconEmojiAdd from './IconEmojiAdd.js';
+            export {IconEmojiAdd};
         
-            import EmojiSad from './EmojiSad.js';
-            export {EmojiSad};
+            import IconEmojiSad from './IconEmojiSad.js';
+            export {IconEmojiSad};
         
-            import Equity from './Equity.js';
-            export {Equity};
+            import IconEquity from './IconEquity.js';
+            export {IconEquity};
         
-            import FileDoc from './FileDoc.js';
-            export {FileDoc};
+            import IconFileDoc from './IconFileDoc.js';
+            export {IconFileDoc};
         
-            import FileEmpty from './FileEmpty.js';
-            export {FileEmpty};
+            import IconFileEmpty from './IconFileEmpty.js';
+            export {IconFileEmpty};
         
-            import FileMp3 from './FileMp3.js';
-            export {FileMp3};
+            import IconFileMp3 from './IconFileMp3.js';
+            export {IconFileMp3};
         
-            import FilePdf from './FilePdf.js';
-            export {FilePdf};
+            import IconFilePdf from './IconFilePdf.js';
+            export {IconFilePdf};
         
-            import FilePpt from './FilePpt.js';
-            export {FilePpt};
+            import IconFilePpt from './IconFilePpt.js';
+            export {IconFilePpt};
         
-            import FileText from './FileText.js';
-            export {FileText};
+            import IconFileText from './IconFileText.js';
+            export {IconFileText};
         
-            import FileXls from './FileXls.js';
-            export {FileXls};
+            import IconFileXls from './IconFileXls.js';
+            export {IconFileXls};
         
-            import FileXml from './FileXml.js';
-            export {FileXml};
+            import IconFileXml from './IconFileXml.js';
+            export {IconFileXml};
         
-            import Filter from './Filter.js';
-            export {Filter};
+            import IconFilter from './IconFilter.js';
+            export {IconFilter};
         
-            import Gift from './Gift.js';
-            export {Gift};
+            import IconGift from './IconGift.js';
+            export {IconGift};
         
-            import GripHorizontalLine from './GripHorizontalLine.js';
-            export {GripHorizontalLine};
+            import IconGripHorizontalLine from './IconGripHorizontalLine.js';
+            export {IconGripHorizontalLine};
         
-            import GripHorizontalPoint from './GripHorizontalPoint.js';
-            export {GripHorizontalPoint};
+            import IconGripHorizontalPoint from './IconGripHorizontalPoint.js';
+            export {IconGripHorizontalPoint};
         
-            import GripVerticalLine from './GripVerticalLine.js';
-            export {GripVerticalLine};
+            import IconGripVerticalLine from './IconGripVerticalLine.js';
+            export {IconGripVerticalLine};
         
-            import GripVerticalPoint from './GripVerticalPoint.js';
-            export {GripVerticalPoint};
+            import IconGripVerticalPoint from './IconGripVerticalPoint.js';
+            export {IconGripVerticalPoint};
         
-            import Headphone from './Headphone.js';
-            export {Headphone};
+            import IconHeadphone from './IconHeadphone.js';
+            export {IconHeadphone};
         
-            import Headphones from './Headphones.js';
-            export {Headphones};
+            import IconHeadphones from './IconHeadphones.js';
+            export {IconHeadphones};
         
-            import Help from './Help.js';
-            export {Help};
+            import IconHelp from './IconHelp.js';
+            export {IconHelp};
         
-            import Hide from './Hide.js';
-            export {Hide};
+            import IconHide from './IconHide.js';
+            export {IconHide};
         
-            import Home from './Home.js';
-            export {Home};
+            import IconHome from './IconHome.js';
+            export {IconHome};
         
-            import HourGlass from './HourGlass.js';
-            export {HourGlass};
+            import IconHourGlass from './IconHourGlass.js';
+            export {IconHourGlass};
         
-            import IdeasEmptyStateFollowing from './IdeasEmptyStateFollowing.js';
-            export {IdeasEmptyStateFollowing};
+            import IconIdeasEmptyStateFollowing from './IconIdeasEmptyStateFollowing.js';
+            export {IconIdeasEmptyStateFollowing};
         
-            import IdeasEmptyStateMasterRequired from './IdeasEmptyStateMasterRequired.js';
-            export {IdeasEmptyStateMasterRequired};
+            import IconIdeasEmptyStateMasterRequired from './IconIdeasEmptyStateMasterRequired.js';
+            export {IconIdeasEmptyStateMasterRequired};
         
-            import ImageFill from './ImageFill.js';
-            export {ImageFill};
+            import IconImageFill from './IconImageFill.js';
+            export {IconImageFill};
         
-            import Indicator from './Indicator.js';
-            export {Indicator};
+            import IconIndicator from './IconIndicator.js';
+            export {IconIndicator};
         
-            import Influencers from './Influencers.js';
-            export {Influencers};
+            import IconInfluencers from './IconInfluencers.js';
+            export {IconInfluencers};
         
-            import InfoCircle from './InfoCircle.js';
-            export {InfoCircle};
+            import IconInfoCircle from './IconInfoCircle.js';
+            export {IconInfoCircle};
         
-            import List from './List.js';
-            export {List};
+            import IconList from './IconList.js';
+            export {IconList};
         
-            import LoadingDefault from './LoadingDefault.js';
-            export {LoadingDefault};
+            import IconLoadingDefault from './IconLoadingDefault.js';
+            export {IconLoadingDefault};
         
-            import Lock from './Lock.js';
-            export {Lock};
+            import IconLock from './IconLock.js';
+            export {IconLock};
         
-            import Locked from './Locked.js';
-            export {Locked};
+            import IconLocked from './IconLocked.js';
+            export {IconLocked};
         
-            import LogOut from './LogOut.js';
-            export {LogOut};
+            import IconLogOut from './IconLogOut.js';
+            export {IconLogOut};
         
-            import Master from './Master.js';
-            export {Master};
+            import IconMaster from './IconMaster.js';
+            export {IconMaster};
         
-            import Matrix from './Matrix.js';
-            export {Matrix};
+            import IconMatrix from './IconMatrix.js';
+            export {IconMatrix};
         
-            import Maximize from './Maximize.js';
-            export {Maximize};
+            import IconMaximize from './IconMaximize.js';
+            export {IconMaximize};
         
-            import Megaphone from './Megaphone.js';
-            export {Megaphone};
+            import IconMegaphone from './IconMegaphone.js';
+            export {IconMegaphone};
         
-            import Menu from './Menu.js';
-            export {Menu};
+            import IconMenu from './IconMenu.js';
+            export {IconMenu};
         
-            import Minimize from './Minimize.js';
-            export {Minimize};
+            import IconMinimize from './IconMinimize.js';
+            export {IconMinimize};
         
-            import MoneyBagFill from './MoneyBagFill.js';
-            export {MoneyBagFill};
+            import IconMoneyBagFill from './IconMoneyBagFill.js';
+            export {IconMoneyBagFill};
         
-            import MoneyBag from './MoneyBag.js';
-            export {MoneyBag};
+            import IconMoneyBag from './IconMoneyBag.js';
+            export {IconMoneyBag};
         
-            import MoneyCoin from './MoneyCoin.js';
-            export {MoneyCoin};
+            import IconMoneyCoin from './IconMoneyCoin.js';
+            export {IconMoneyCoin};
         
-            import MoneySign from './MoneySign.js';
-            export {MoneySign};
+            import IconMoneySign from './IconMoneySign.js';
+            export {IconMoneySign};
         
-            import MoreOptionsHorizontal from './MoreOptionsHorizontal.js';
-            export {MoreOptionsHorizontal};
+            import IconMoreOptionsHorizontal from './IconMoreOptionsHorizontal.js';
+            export {IconMoreOptionsHorizontal};
         
-            import MoreOptionsVertical from './MoreOptionsVertical.js';
-            export {MoreOptionsVertical};
+            import IconMoreOptionsVertical from './IconMoreOptionsVertical.js';
+            export {IconMoreOptionsVertical};
         
-            import Move from './Move.js';
-            export {Move};
+            import IconMove from './IconMove.js';
+            export {IconMove};
         
-            import Mover from './Mover.js';
-            export {Mover};
+            import IconMover from './IconMover.js';
+            export {IconMover};
         
-            import Mute from './Mute.js';
-            export {Mute};
+            import IconMute from './IconMute.js';
+            export {IconMute};
         
-            import NotificationFill from './NotificationFill.js';
-            export {NotificationFill};
+            import IconNotificationFill from './IconNotificationFill.js';
+            export {IconNotificationFill};
         
-            import Notification from './Notification.js';
-            export {Notification};
+            import IconNotification from './IconNotification.js';
+            export {IconNotification};
         
-            import PatchCheck from './PatchCheck.js';
-            export {PatchCheck};
+            import IconPatchCheck from './IconPatchCheck.js';
+            export {IconPatchCheck};
         
-            import PaymentMastercard from './PaymentMastercard.js';
-            export {PaymentMastercard};
+            import IconPaymentMastercard from './IconPaymentMastercard.js';
+            export {IconPaymentMastercard};
         
-            import Pen from './Pen.js';
-            export {Pen};
+            import IconPen from './IconPen.js';
+            export {IconPen};
         
-            import Percentage from './Percentage.js';
-            export {Percentage};
+            import IconPercentage from './IconPercentage.js';
+            export {IconPercentage};
         
-            import Pin from './Pin.js';
-            export {Pin};
+            import IconPin from './IconPin.js';
+            export {IconPin};
         
-            import Plantao from './Plantao.js';
-            export {Plantao};
+            import IconPlantao from './IconPlantao.js';
+            export {IconPlantao};
         
-            import Play from './Play.js';
-            export {Play};
+            import IconPlay from './IconPlay.js';
+            export {IconPlay};
         
-            import Plus from './Plus.js';
-            export {Plus};
+            import IconPlus from './IconPlus.js';
+            export {IconPlus};
         
-            import ProposalDetails from './ProposalDetails.js';
-            export {ProposalDetails};
+            import IconProposalDetails from './IconProposalDetails.js';
+            export {IconProposalDetails};
         
-            import RadioMic from './RadioMic.js';
-            export {RadioMic};
+            import IconRadioMic from './IconRadioMic.js';
+            export {IconRadioMic};
         
-            import Radio from './Radio.js';
-            export {Radio};
+            import IconRadio from './IconRadio.js';
+            export {IconRadio};
         
-            import Ranking from './Ranking.js';
-            export {Ranking};
+            import IconRanking from './IconRanking.js';
+            export {IconRanking};
         
-            import RefreshSlash from './RefreshSlash.js';
-            export {RefreshSlash};
+            import IconRefreshSlash from './IconRefreshSlash.js';
+            export {IconRefreshSlash};
         
-            import Refresh from './Refresh.js';
-            export {Refresh};
+            import IconRefresh from './IconRefresh.js';
+            export {IconRefresh};
         
-            import Reports from './Reports.js';
-            export {Reports};
+            import IconReports from './IconReports.js';
+            export {IconReports};
         
-            import Revert from './Revert.js';
-            export {Revert};
+            import IconRevert from './IconRevert.js';
+            export {IconRevert};
         
-            import Search from './Search.js';
-            export {Search};
+            import IconSearch from './IconSearch.js';
+            export {IconSearch};
         
-            import Selector from './Selector.js';
-            export {Selector};
+            import IconSelector from './IconSelector.js';
+            export {IconSelector};
         
-            import Sell from './Sell.js';
-            export {Sell};
+            import IconSell from './IconSell.js';
+            export {IconSell};
         
-            import Send from './Send.js';
-            export {Send};
+            import IconSend from './IconSend.js';
+            export {IconSend};
         
-            import Settings from './Settings.js';
-            export {Settings};
+            import IconSettings from './IconSettings.js';
+            export {IconSettings};
         
-            import Share from './Share.js';
-            export {Share};
+            import IconShare from './IconShare.js';
+            export {IconShare};
         
-            import ShieldCheck from './ShieldCheck.js';
-            export {ShieldCheck};
+            import IconShieldCheck from './IconShieldCheck.js';
+            export {IconShieldCheck};
         
-            import Shield from './Shield.js';
-            export {Shield};
+            import IconShield from './IconShield.js';
+            export {IconShield};
         
-            import Show from './Show.js';
-            export {Show};
+            import IconShow from './IconShow.js';
+            export {IconShow};
         
-            import SlidersVertical from './SlidersVertical.js';
-            export {SlidersVertical};
+            import IconSlidersVertical from './IconSlidersVertical.js';
+            export {IconSlidersVertical};
         
-            import Sliders from './Sliders.js';
-            export {Sliders};
+            import IconSliders from './IconSliders.js';
+            export {IconSliders};
         
-            import SoundOn from './SoundOn.js';
-            export {SoundOn};
+            import IconSoundOn from './IconSoundOn.js';
+            export {IconSoundOn};
         
-            import Speakerphone from './Speakerphone.js';
-            export {Speakerphone};
+            import IconSpeakerphone from './IconSpeakerphone.js';
+            export {IconSpeakerphone};
         
-            import Star from './Star.js';
-            export {Star};
+            import IconStar from './IconStar.js';
+            export {IconStar};
         
-            import Store from './Store.js';
-            export {Store};
+            import IconStore from './IconStore.js';
+            export {IconStore};
         
-            import SuitabilityTestResult from './SuitabilityTestResult.js';
-            export {SuitabilityTestResult};
+            import IconSuitabilityTestResult from './IconSuitabilityTestResult.js';
+            export {IconSuitabilityTestResult};
         
-            import SuitabilityTest from './SuitabilityTest.js';
-            export {SuitabilityTest};
+            import IconSuitabilityTest from './IconSuitabilityTest.js';
+            export {IconSuitabilityTest};
         
-            import Support from './Support.js';
-            export {Support};
+            import IconSupport from './IconSupport.js';
+            export {IconSupport};
         
-            import TcMarkerDown from './TcMarkerDown.js';
-            export {TcMarkerDown};
+            import IconTcMarkerDown from './IconTcMarkerDown.js';
+            export {IconTcMarkerDown};
         
-            import TcOptions from './TcOptions.js';
-            export {TcOptions};
+            import IconTcOptions from './IconTcOptions.js';
+            export {IconTcOptions};
         
-            import ThumbDown from './ThumbDown.js';
-            export {ThumbDown};
+            import IconThumbDown from './IconThumbDown.js';
+            export {IconThumbDown};
         
-            import ThumbUp from './ThumbUp.js';
-            export {ThumbUp};
+            import IconThumbUp from './IconThumbUp.js';
+            export {IconThumbUp};
         
-            import TimeEvent from './TimeEvent.js';
-            export {TimeEvent};
+            import IconTimeEvent from './IconTimeEvent.js';
+            export {IconTimeEvent};
         
-            import ToggleOff from './ToggleOff.js';
-            export {ToggleOff};
+            import IconToggleOff from './IconToggleOff.js';
+            export {IconToggleOff};
         
-            import ToggleOn from './ToggleOn.js';
-            export {ToggleOn};
+            import IconToggleOn from './IconToggleOn.js';
+            export {IconToggleOn};
         
-            import Tools from './Tools.js';
-            export {Tools};
+            import IconTools from './IconTools.js';
+            export {IconTools};
         
-            import Torneio from './Torneio.js';
-            export {Torneio};
+            import IconTorneio from './IconTorneio.js';
+            export {IconTorneio};
         
-            import TradeIdeas from './TradeIdeas.js';
-            export {TradeIdeas};
+            import IconTradeIdeas from './IconTradeIdeas.js';
+            export {IconTradeIdeas};
         
-            import Trash from './Trash.js';
-            export {Trash};
+            import IconTrash from './IconTrash.js';
+            export {IconTrash};
         
-            import Upload from './Upload.js';
-            export {Upload};
+            import IconUpload from './IconUpload.js';
+            export {IconUpload};
         
-            import UserAdd from './UserAdd.js';
-            export {UserAdd};
+            import IconUserAdd from './IconUserAdd.js';
+            export {IconUserAdd};
         
-            import UserList from './UserList.js';
-            export {UserList};
+            import IconUserList from './IconUserList.js';
+            export {IconUserList};
         
-            import User from './User.js';
-            export {User};
+            import IconUser from './IconUser.js';
+            export {IconUser};
         
-            import Users from './Users.js';
-            export {Users};
+            import IconUsers from './IconUsers.js';
+            export {IconUsers};
         
-            import Video from './Video.js';
-            export {Video};
+            import IconVideo from './IconVideo.js';
+            export {IconVideo};
         
-            import Voucher from './Voucher.js';
-            export {Voucher};
+            import IconVoucher from './IconVoucher.js';
+            export {IconVoucher};
         
-            import Wealth from './Wealth.js';
-            export {Wealth};
+            import IconWealth from './IconWealth.js';
+            export {IconWealth};
         

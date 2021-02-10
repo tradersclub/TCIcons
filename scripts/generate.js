@@ -28,7 +28,7 @@ for (file of files) {
         alreadyInGenerated.push(file);
 
         let content = readFileSync(`${SVG_DIR}/${file}`, 'utf-8');
-        const name = camelize(file.replace('.svg', ''));
+        const name = "Icon"+camelize(file.replace('.svg', ''));
         content = applyReplace(content);
 
         const component = `

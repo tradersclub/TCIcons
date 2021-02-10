@@ -1,3 +1,2 @@
-import * as Components from './components';
-export { Components };
+export * from './components';
 export * from './svg';
