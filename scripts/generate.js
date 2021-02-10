@@ -11,10 +11,10 @@ function camelize(property) {
 function applyReplace(content) {
     return content
         .replace('fill="none"', 'fill="${props.color}"')
-        .replace('width="32"', 'width="${props.width}"')
-        .replace('height="32"', 'height="${props.height}"')
-        .replace('width="1em"', 'width="${props.width}"')
-        .replace('height="1em"', 'height="${props.height}"');
+        .replace('width="32"', 'width="${props.size}"')
+        .replace('height="32"', 'height="${props.size}"')
+        .replace('width="1em"', 'width="${props.size}"')
+        .replace('height="1em"', 'height="${props.size}"');
 }
 
 const SVG_DIR = `${process.cwd()}/src/svg`;
