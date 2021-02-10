@@ -23,6 +23,9 @@ const alreadyInGenerated = [];
 
 let indexFile = '\n';
 for (file of files) {
+    if (file.split('.').pop() != "svg") {
+        return;
+    }
     // não duplicar imports
     if (alreadyInGenerated.includes(file.toLowerCase())) {
         return;
@@ -48,7 +51,7 @@ for (file of files) {
     `;
     
     indexFile += `
-        export * from './${name}.js';
+        export * as ${name} from './${name}.js';
     `;
 
     writeFileSync(`${process.cwd()}/src/components/${name}.js`, component);
