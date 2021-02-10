@@ -57,4 +57,4 @@ for (file of files) {
     writeFileSync(`${process.cwd()}/src/components/${name}.js`, component);
 }
 
-writeFileSync(`${process.cwd()}/src/components/index.js`, indexFile);
+writeFileSync(`${process.cwd()}/src/components/index.ts`, indexFile);
