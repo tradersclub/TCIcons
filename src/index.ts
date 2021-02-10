@@ -1,2 +1,2 @@
-export * as Components from './components'
+export * as Components from './components';
 export * from './svg';
