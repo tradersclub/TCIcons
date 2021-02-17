@@ -134,6 +134,8 @@ export declare const loadingDefault: string;
 export declare const lock: string;
 export declare const locked: string;
 export declare const logOut: string;
+export declare const logoBubblesDark: string;
+export declare const logoBubblesLight: string;
 export declare const master: string;
 export declare const matrix: string;
 export declare const maximize: string;

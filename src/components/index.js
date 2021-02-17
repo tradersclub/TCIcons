@@ -423,6 +423,12 @@
             import IconLogOut from './IconLogOut.js';
             export {IconLogOut};
         
+            import IconLogoBubblesDark from './IconLogoBubblesDark.js';
+            export {IconLogoBubblesDark};
+        
+            import IconLogoBubblesLight from './IconLogoBubblesLight.js';
+            export {IconLogoBubblesLight};
+        
             import IconMaster from './IconMaster.js';
             export {IconMaster};
         
