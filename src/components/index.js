@@ -573,6 +573,9 @@
             import IconStore from './IconStore.js';
             export {IconStore};
         
+            import IconSuitabilityTestDark from './IconSuitabilityTestDark.js';
+            export {IconSuitabilityTestDark};
+        
             import IconSuitabilityTestResult from './IconSuitabilityTestResult.js';
             export {IconSuitabilityTestResult};
         

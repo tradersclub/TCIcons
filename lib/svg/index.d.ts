@@ -184,6 +184,7 @@ export declare const slidersVertical: string;
 export declare const speakerphone: string;
 export declare const star: string;
 export declare const store: string;
+export declare const suitabilityTestDark: string;
 export declare const suitabilityTestResult: string;
 export declare const suitabilityTest: string;
 export declare const support: string;
