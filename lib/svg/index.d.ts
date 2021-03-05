@@ -162,7 +162,6 @@ export declare const plantao: string;
 export declare const playCircle: string;
 export declare const plus: string;
 export declare const proposalDetails: string;
-export declare const radio: string;
 export declare const radioMic: string;
 export declare const ranking: string;
 export declare const refresh: string;
