@@ -357,6 +357,15 @@
             import IconFilter from './IconFilter.js';
             export {IconFilter};
         
+            import IconFolderFill from './IconFolderFill.js';
+            export {IconFolderFill};
+        
+            import IconFolder from './IconFolder.js';
+            export {IconFolder};
+        
+            import IconGavel from './IconGavel.js';
+            export {IconGavel};
+        
             import IconGift from './IconGift.js';
             export {IconGift};
         
@@ -405,11 +414,17 @@
             import IconInfluencers from './IconInfluencers.js';
             export {IconInfluencers};
         
+            import IconInfoCircleFill from './IconInfoCircleFill.js';
+            export {IconInfoCircleFill};
+        
             import IconInfoCircle from './IconInfoCircle.js';
             export {IconInfoCircle};
         
             import IconList from './IconList.js';
             export {IconList};
+        
+            import IconLive from './IconLive.js';
+            export {IconLive};
         
             import IconLoadingDefault from './IconLoadingDefault.js';
             export {IconLoadingDefault};
@@ -474,6 +489,9 @@
             import IconMute from './IconMute.js';
             export {IconMute};
         
+            import IconNext from './IconNext.js';
+            export {IconNext};
+        
             import IconNotificationFill from './IconNotificationFill.js';
             export {IconNotificationFill};
         
@@ -482,6 +500,12 @@
         
             import IconPatchCheck from './IconPatchCheck.js';
             export {IconPatchCheck};
+        
+            import IconPauseCircle from './IconPauseCircle.js';
+            export {IconPauseCircle};
+        
+            import IconPause from './IconPause.js';
+            export {IconPause};
         
             import IconPaymentMastercard from './IconPaymentMastercard.js';
             export {IconPaymentMastercard};
@@ -498,11 +522,20 @@
             import IconPlantao from './IconPlantao.js';
             export {IconPlantao};
         
+            import IconPlayCircle from './IconPlayCircle.js';
+            export {IconPlayCircle};
+        
+            import IconPlayFill from './IconPlayFill.js';
+            export {IconPlayFill};
+        
             import IconPlay from './IconPlay.js';
             export {IconPlay};
         
             import IconPlus from './IconPlus.js';
             export {IconPlus};
+        
+            import IconPrevius from './IconPrevius.js';
+            export {IconPrevius};
         
             import IconProposalDetails from './IconProposalDetails.js';
             export {IconProposalDetails};
@@ -528,8 +561,20 @@
             import IconRevert from './IconRevert.js';
             export {IconRevert};
         
+            import IconRotate from './IconRotate.js';
+            export {IconRotate};
+        
             import IconSearch from './IconSearch.js';
             export {IconSearch};
+        
+            import IconSelectorBigger from './IconSelectorBigger.js';
+            export {IconSelectorBigger};
+        
+            import IconSelectorDefault from './IconSelectorDefault.js';
+            export {IconSelectorDefault};
+        
+            import IconSelectorSmaller from './IconSelectorSmaller.js';
+            export {IconSelectorSmaller};
         
             import IconSelector from './IconSelector.js';
             export {IconSelector};
@@ -567,8 +612,14 @@
             import IconSpeakerphone from './IconSpeakerphone.js';
             export {IconSpeakerphone};
         
+            import IconStarFill from './IconStarFill.js';
+            export {IconStarFill};
+        
             import IconStar from './IconStar.js';
             export {IconStar};
+        
+            import IconStation from './IconStation.js';
+            export {IconStation};
         
             import IconStore from './IconStore.js';
             export {IconStore};
@@ -611,6 +662,9 @@
         
             import IconTorneio from './IconTorneio.js';
             export {IconTorneio};
+        
+            import IconTorneios from './IconTorneios.js';
+            export {IconTorneios};
         
             import IconTradeIdeas from './IconTradeIdeas.js';
             export {IconTradeIdeas};
