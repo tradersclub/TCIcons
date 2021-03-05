@@ -60,7 +60,7 @@ function generateIconComponents(files, SVG_DIR) {
 
 function generateExportTsSVG(files, SVG_DIR) {
     const alreadyInGenerated = [];
-    let indexFile = '\n';
+    let indexFile = '';
 
     for (file of files) {
     
@@ -70,10 +70,7 @@ function generateExportTsSVG(files, SVG_DIR) {
             const newNameImport = '_'+ camelize(file.replace('.svg', ''), true);        
             const newName = camelize(file.replace('.svg', ''), true);        
             
-            indexFile += `
-import ${newNameImport} from './${file}';
-export const ${newName} = ${newNameImport};
-            `;
+            indexFile += `import ${newNameImport} from './${file}';\nexport const ${newName} = ${newNameImport};\n`;
     
         }
     

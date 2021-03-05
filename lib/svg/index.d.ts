@@ -1,4 +1,3 @@
-export declare const TCSchool: string;
 export declare const alertFill: string;
 export declare const alert: string;
 export declare const arrowAngleContract: string;
@@ -212,6 +211,7 @@ export declare const suitabilityTest: string;
 export declare const support: string;
 export declare const tcMarkerDown: string;
 export declare const tcOptions: string;
+export declare const tcSchool: string;
 export declare const thumbDown: string;
 export declare const thumbUp: string;
 export declare const timeEvent: string;
