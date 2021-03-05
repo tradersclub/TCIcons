@@ -1,9 +1,9 @@
 
-        import * as React from 'react';
-
-        const IconPaymentMastercard = (props) => {
-            return React.createElement('object', {style: props.style, dangerouslySetInnerHTML:{__html:`
-                <svg xmlns="http://www.w3.org/2000/svg" width="${props.size}" height="${props.size}" fill="${props.color}" viewBox="0 0 32 32">
+            import * as React from 'react';
+    
+            const IconPaymentMastercard = (props) => {
+                return React.createElement('object', {style: props.style, dangerouslySetInnerHTML:{__html:`
+                    <svg xmlns="http://www.w3.org/2000/svg" width="${props.size}" height="${props.size}" fill="${props.color}" viewBox="0 0 32 32">
   <g class="payment-mastercard">
     <g class="Group 83">
       <rect width="24" height="16" x="5" y="8"  class="Rectangle 64" rx="2"/>
@@ -14,9 +14,9 @@
   </g>
 </svg>
 
-            `}}
+                `}}
+                
+                );
+            }
+            export default IconPaymentMastercard;
             
-            );
-        }
-        export default IconPaymentMastercard;
-        
