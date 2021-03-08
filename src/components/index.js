@@ -1,5 +1,8 @@
 
 
+                import IconTcSchool from './IconTcSchool.js';
+                export {IconTcSchool};
+            
                 import IconAlertFill from './IconAlertFill.js';
                 export {IconAlertFill};
             
@@ -638,9 +641,6 @@
             
                 import IconTcOptions from './IconTcOptions.js';
                 export {IconTcOptions};
-            
-                import IconTcSchool from './IconTcSchool.js';
-                export {IconTcSchool};
             
                 import IconThumbDown from './IconThumbDown.js';
                 export {IconThumbDown};
