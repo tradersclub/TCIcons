@@ -444,6 +444,9 @@
                 import IconLogoBubblesLight from './IconLogoBubblesLight.js';
                 export {IconLogoBubblesLight};
             
+                import IconLogo from './IconLogo.js';
+                export {IconLogo};
+            
                 import IconMaster from './IconMaster.js';
                 export {IconMaster};
             
@@ -527,6 +530,9 @@
             
                 import IconPlayFill from './IconPlayFill.js';
                 export {IconPlayFill};
+            
+                import IconPlayStore from './IconPlayStore.js';
+                export {IconPlayStore};
             
                 import IconPlay from './IconPlay.js';
                 export {IconPlay};
