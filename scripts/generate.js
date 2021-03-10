@@ -58,7 +58,7 @@ function generateIconComponents(files, SVG_DIR) {
     writeFileSync(`${process.cwd()}/src/components/index.js`, indexFile);
 }
 
-function generateExportTsSVG(files, SVG_DIR) {
+function generateExportTsSVG(files) {
     const alreadyInGenerated = [];
     let indexFile = '';
 
@@ -79,8 +79,78 @@ function generateExportTsSVG(files, SVG_DIR) {
     writeFileSync(`${process.cwd()}/src/svg/index.ts`, indexFile);
 }
 
+function generateIconHTMLViewer(files, SVG_DIR) {
+    const alreadyInGenerated = [];
+    let indexFile = `<html>
+    <head></head>
+    <style>
+        .wrapper {
+            display: flex;
+            flex-flow: row wrap;
+        }
+        .icon {
+            border: 1px solid #ddd;
+            flex: 1;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 10px;
+            background: #fff;
+            box-shadow: 3px 2px 5px rgb(0 0 0 / 7%);
+            text-align: center;
+        }
+        .icon object {
+            display: block;
+            text-align: center;
+        }
+        .icon b {
+            color:rgb(67, 100, 232);
+        }
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            margin-bottom: 30px;
+            color: rgb(67, 100, 232);
+        }
+        body {
+            background: #fbfbfb;
+        }
+    </style>
+    <body>
+        <h1>TCIcons</h1>
+        <div class="wrapper">`;
+
+    for (file of files) {
+    
+        if (file.split('.').pop() == "svg" && !alreadyInGenerated.includes(file.toLowerCase())) {
+            alreadyInGenerated.push(file);
+    
+            const nameSVG = camelize(file.replace('.svg', ''), true);        
+            const nameComponent = "Icon"+camelize(file.replace('.svg', ''));
+
+            let content = readFileSync(`${SVG_DIR}/${file}`, 'utf-8');
+            content = content
+                .replace('fill="none"', 'fill="rgb(67, 100, 232)"')
+                .replace('width="1em"', 'width="32"')
+                .replace('height="1em"', 'height="32"');
+            
+            indexFile += `
+                <div class="icon">
+                    <object>${content}</object>
+                    <p><b>SVG:</b><br/> ${nameSVG}</p>
+                    <p><b>Component:</b><br/> ${nameComponent}</p>
+                </div>`;
+    
+        }
+    
+    }
+    
+    indexFile += '</div></body></html>';
+    writeFileSync(`${process.cwd()}/src/index.html`, indexFile);
+}
+
 // run
 const SVG_DIR = `${process.cwd()}/src/svg`;
 const files = readdirSync(SVG_DIR);
 generateIconComponents(files, SVG_DIR);
-generateExportTsSVG(files, SVG_DIR);
+generateExportTsSVG(files);
+generateIconHTMLViewer(files, SVG_DIR);
