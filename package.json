@@ -2,6 +2,7 @@
     "name": "@tradersclub/tc-svg",
     "version": "0.3.0",
     "description": "Esse projeto tem como objetivo abertura dos svg`s",
+    "type": "commonjs",
     "author": "Tradersclub",
     "license": "MIT",
     "main": "lib/index.js",
