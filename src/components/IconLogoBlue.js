@@ -3,8 +3,8 @@
     
             const IconLogoBlue = (props) => {
                 return React.createElement('object', {style: props.style, dangerouslySetInnerHTML:{__html:`
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="${props.color}" xmlns="http://www.w3.org/2000/svg">
-<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                    <svg width="${props.width ?? props.size}" height="${props.width ?? props.height}" viewBox="0 0 24 24" fill="${props.color}" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="${props.width ?? props.size}" height="${props.width ?? props.height}"
 <path fill-rule="evenodd" clip-rule="evenodd" d="M0 0L24 0V24H0L0 0Z" fill="white"/>
 </mask>
 <g mask="url(#mask0)">

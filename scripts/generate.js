@@ -4,7 +4,7 @@ function camelize(property, exceptFirst) {
     const s = property.split('-');
     const capital = s.map((item, key) => {
         if (exceptFirst && key == 0) {
-            return item
+            return item;
         }
         return item.charAt(0).toUpperCase() + item.slice(1).toLowerCase();
     });
@@ -14,24 +14,21 @@ function camelize(property, exceptFirst) {
 function applyReplace(content) {
     return content
         .replace('fill="none"', 'fill="${props.color}"')
-        .replace('width="32"', 'width="${props.size}"')
-        .replace('height="32"', 'height="${props.size}"')
-        .replace('width="1em"', 'width="${props.size}"')
-        .replace('height="1em"', 'height="${props.size}"');
+        .replace(/width="(\S*)/g, 'width="${props.width ?? props.size}"')
+        .replace(/height="(\S*)/g, 'height="${props.width ?? props.height}"');
 }
 
 function generateIconComponents(files, SVG_DIR) {
     const alreadyInGenerated = [];
     let indexFile = '\n';
     for (file of files) {
-    
-        if (file.split('.').pop() == "svg" && !alreadyInGenerated.includes(file.toLowerCase())) {
+        if (file.split('.').pop() == 'svg' && !alreadyInGenerated.includes(file.toLowerCase())) {
             alreadyInGenerated.push(file);
-    
+
             let content = readFileSync(`${SVG_DIR}/${file}`, 'utf-8');
-            const name = "Icon"+camelize(file.replace('.svg', ''));
+            const name = 'Icon' + camelize(file.replace('.svg', ''));
             content = applyReplace(content);
-    
+
             const component = `
             import * as React from 'react';
     
@@ -44,17 +41,16 @@ function generateIconComponents(files, SVG_DIR) {
             }
             export default ${name};
             `;
-            
+
             indexFile += `
                 import ${name} from './${name}.js';
                 export {${name}};
             `;
-    
+
             writeFileSync(`${process.cwd()}/src/components/${name}.js`, component);
         }
-    
     }
-    
+
     writeFileSync(`${process.cwd()}/src/components/index.js`, indexFile);
 }
 
@@ -63,19 +59,16 @@ function generateExportTsSVG(files) {
     let indexFile = '';
 
     for (file of files) {
-    
-        if (file.split('.').pop() === "svg" && !alreadyInGenerated.includes(file.toLowerCase())) {
+        if (file.split('.').pop() === 'svg' && !alreadyInGenerated.includes(file.toLowerCase())) {
             alreadyInGenerated.push(file);
-    
-            const newNameImport = '_'+ camelize(file.replace('.svg', ''), true);        
-            const newName = camelize(file.replace('.svg', ''), true);        
-            
+
+            const newNameImport = '_' + camelize(file.replace('.svg', ''), true);
+            const newName = camelize(file.replace('.svg', ''), true);
+
             indexFile += `export const ${newName} = \`${readFileSync(`${process.cwd()}/src/svg/${file}`)}\`;\n`;
-    
         }
-    
     }
-    
+
     writeFileSync(`${process.cwd()}/src/svg/index.ts`, indexFile);
 }
 
@@ -120,30 +113,27 @@ function generateIconHTMLViewer(files, SVG_DIR) {
         <div class="wrapper">`;
 
     for (file of files) {
-    
-        if (file.split('.').pop() == "svg" && !alreadyInGenerated.includes(file.toLowerCase())) {
+        if (file.split('.').pop() == 'svg' && !alreadyInGenerated.includes(file.toLowerCase())) {
             alreadyInGenerated.push(file);
-    
-            const nameSVG = camelize(file.replace('.svg', ''), true);        
-            const nameComponent = "Icon"+camelize(file.replace('.svg', ''));
+
+            const nameSVG = camelize(file.replace('.svg', ''), true);
+            const nameComponent = 'Icon' + camelize(file.replace('.svg', ''));
 
             let content = readFileSync(`${SVG_DIR}/${file}`, 'utf-8');
             content = content
                 .replace('fill="none"', 'fill="rgb(67, 100, 232)"')
                 .replace('width="1em"', 'width="32"')
                 .replace('height="1em"', 'height="32"');
-            
+
             indexFile += `
                 <div class="icon">
                     <object>${content}</object>
                     <p><b>SVG:</b><br/> ${nameSVG}</p>
                     <p><b>Component:</b><br/> ${nameComponent}</p>
                 </div>`;
-    
         }
-    
     }
-    
+
     indexFile += '</div></body></html>';
     writeFileSync(`${process.cwd()}/src/index.html`, indexFile);
 }

@@ -3,7 +3,7 @@
     
             const IconLogoBubblesDark = (props) => {
                 return React.createElement('object', {style: props.style, dangerouslySetInnerHTML:{__html:`
-                    <svg width="216" height="190" viewBox="0 0 216 190" fill="${props.color}" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="${props.width ?? props.size}" height="${props.width ?? props.height}" viewBox="0 0 216 190" fill="${props.color}" xmlns="http://www.w3.org/2000/svg">
 <circle cx="56.1259" cy="18.9235" r="4.12573" fill="white" stroke="#AA79D0"/>
 <circle cx="120.046" cy="32.38" r="4.12573" fill="white" stroke="#4364E8"/>
 <circle cx="5.10522" cy="83.1374" r="4.12573" fill="white" stroke="#11D69A"/>
