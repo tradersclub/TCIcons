@@ -1,6 +1,6 @@
 {
     "name": "tc-svg",
-    "version": "0.3.0",
+    "version": "0.3.2",
     "description": "Esse projeto tem como objetivo abertura dos svg`s",
     "type": "commonjs",
     "author": "Tradersclub",
