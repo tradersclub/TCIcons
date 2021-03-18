@@ -15,7 +15,7 @@ function applyReplace(content) {
     return content
         .replace('fill="none"', 'fill="${props.color}"')
         .replace(/width="(\S*)/g, 'width="${props.width ?? props.size}"')
-        .replace(/height="(\S*)/g, 'height="${props.width ?? props.height}"');
+        .replace(/height="(\S*)/g, 'height="${props.height ?? props.size}"');
 }
 
 function generateIconComponents(files, SVG_DIR) {

@@ -3,7 +3,7 @@
     
             const IconEditItalic = (props) => {
                 return React.createElement('object', {style: props.style, dangerouslySetInnerHTML:{__html:`
-                    <svg xmlns="http://www.w3.org/2000/svg" width="${props.width ?? props.size}" height="${props.width ?? props.height}" fill="${props.color}" viewBox="0 0 32 32">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="${props.width ?? props.size}" height="${props.height ?? props.size}" fill="${props.color}" viewBox="0 0 32 32">
   <g class="italic">
     <path  fill-rule="evenodd" d="M18.52 4H23a1 1 0 110 2h-3.702l-4.545 20H18a1 1 0 110 2H9a1 1 0 110-2h3.702l4.545-20H14a1 1 0 110-2h4.52z" class="Union" clip-rule="evenodd"/>
   </g>
