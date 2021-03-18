@@ -1,5 +1,5 @@
 {
-    "name": "@tradersclub/tc-svg",
+    "name": "tc-svg",
     "version": "0.3.0",
     "description": "Esse projeto tem como objetivo abertura dos svg`s",
     "type": "commonjs",

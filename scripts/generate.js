@@ -64,13 +64,13 @@ function generateExportTsSVG(files) {
 
     for (file of files) {
     
-        if (file.split('.').pop() == "svg" && !alreadyInGenerated.includes(file.toLowerCase())) {
+        if (file.split('.').pop() === "svg" && !alreadyInGenerated.includes(file.toLowerCase())) {
             alreadyInGenerated.push(file);
     
             const newNameImport = '_'+ camelize(file.replace('.svg', ''), true);        
             const newName = camelize(file.replace('.svg', ''), true);        
             
-            indexFile += `import ${newNameImport} from './${file}';\nexport const ${newName} = ${newNameImport};\n`;
+            indexFile += `export const ${newName} = \`${readFileSync(`${process.cwd()}/src/svg/${file}`)}\`;\n`;
     
         }
     
