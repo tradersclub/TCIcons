@@ -438,6 +438,9 @@
                 import IconLogOut from './IconLogOut.js';
                 export {IconLogOut};
             
+                import IconLogoBlue from './IconLogoBlue.js';
+                export {IconLogoBlue};
+            
                 import IconLogoBubblesDark from './IconLogoBubblesDark.js';
                 export {IconLogoBubblesDark};
             
