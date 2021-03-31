@@ -75,9 +75,6 @@
                 import IconBookmark from './IconBookmark.js';
                 export {IconBookmark};
             
-                import IconBrain from './IconBrain.js';
-                export {IconBrain};
-            
                 import IconBuy from './IconBuy.js';
                 export {IconBuy};
             
@@ -197,9 +194,6 @@
             
                 import IconDashboard from './IconDashboard.js';
                 export {IconDashboard};
-            
-                import IconDerivatives from './IconDerivatives.js';
-                export {IconDerivatives};
             
                 import IconDiretorio from './IconDiretorio.js';
                 export {IconDiretorio};
@@ -368,9 +362,6 @@
             
                 import IconFolder from './IconFolder.js';
                 export {IconFolder};
-            
-                import IconFundamentals from './IconFundamentals.js';
-                export {IconFundamentals};
             
                 import IconGavel from './IconGavel.js';
                 export {IconGavel};
@@ -555,9 +546,6 @@
                 import IconPrevius from './IconPrevius.js';
                 export {IconPrevius};
             
-                import IconProfile from './IconProfile.js';
-                export {IconProfile};
-            
                 import IconProposalDetails from './IconProposalDetails.js';
                 export {IconProposalDetails};
             
@@ -707,9 +695,6 @@
             
                 import IconUsers from './IconUsers.js';
                 export {IconUsers};
-            
-                import IconValuation from './IconValuation.js';
-                export {IconValuation};
             
                 import IconVideo from './IconVideo.js';
                 export {IconVideo};
