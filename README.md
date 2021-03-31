@@ -2,6 +2,11 @@
 
 Esse repositorio foi criado com o proposito de substituir temporariamente ou definitivo o processo de subir icones no app do tc.
 
+# Comunicado
+
+Esse repositorio está sendo descontinuado, dentro de algumas semanas não será mais possivel receber atualização apartir dele.
+Novo Repositorio: https://github.com/tradersclub/TCIconSystem
+
 ## Utilizando
 
 1- Instale a biblioteca e seus dependencia:
