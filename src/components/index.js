@@ -9,6 +9,9 @@
                 import IconAlert from './IconAlert.js';
                 export {IconAlert};
             
+                import IconAnalysis from './IconAnalysis.js';
+                export {IconAnalysis};
+            
                 import IconArrowAngleContract from './IconArrowAngleContract.js';
                 export {IconArrowAngleContract};
             
@@ -336,6 +339,9 @@
                 import IconEquity from './IconEquity.js';
                 export {IconEquity};
             
+                import IconEvents from './IconEvents.js';
+                export {IconEvents};
+            
                 import IconFileDoc from './IconFileDoc.js';
                 export {IconFileDoc};
             
@@ -584,6 +590,9 @@
             
                 import IconRotate from './IconRotate.js';
                 export {IconRotate};
+            
+                import IconScreener from './IconScreener.js';
+                export {IconScreener};
             
                 import IconSearch from './IconSearch.js';
                 export {IconSearch};
