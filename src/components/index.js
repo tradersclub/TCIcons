@@ -3,8 +3,14 @@
                 import IconTcSchool from './IconTcSchool.js';
                 export {IconTcSchool};
             
+                import IconAdvance from './IconAdvance.js';
+                export {IconAdvance};
+            
                 import IconAlertFill from './IconAlertFill.js';
                 export {IconAlertFill};
+            
+                import IconAlertFull from './IconAlertFull.js';
+                export {IconAlertFull};
             
                 import IconAlert from './IconAlert.js';
                 export {IconAlert};
@@ -75,6 +81,9 @@
                 import IconBlog from './IconBlog.js';
                 export {IconBlog};
             
+                import IconBookmarkFill from './IconBookmarkFill.js';
+                export {IconBookmarkFill};
+            
                 import IconBookmark from './IconBookmark.js';
                 export {IconBookmark};
             
@@ -110,6 +119,9 @@
             
                 import IconCart from './IconCart.js';
                 export {IconCart};
+            
+                import IconCarteiraRecomendada from './IconCarteiraRecomendada.js';
+                export {IconCarteiraRecomendada};
             
                 import IconCarteira from './IconCarteira.js';
                 export {IconCarteira};
@@ -378,6 +390,9 @@
                 import IconFundamentals from './IconFundamentals.js';
                 export {IconFundamentals};
             
+                import IconGavelFill from './IconGavelFill.js';
+                export {IconGavelFill};
+            
                 import IconGavel from './IconGavel.js';
                 export {IconGavel};
             
@@ -435,8 +450,14 @@
                 import IconInfoCircle from './IconInfoCircle.js';
                 export {IconInfoCircle};
             
+                import IconLightning from './IconLightning.js';
+                export {IconLightning};
+            
                 import IconList from './IconList.js';
                 export {IconList};
+            
+                import IconLiveDot from './IconLiveDot.js';
+                export {IconLiveDot};
             
                 import IconLive from './IconLive.js';
                 export {IconLive};
@@ -479,6 +500,9 @@
             
                 import IconMenu from './IconMenu.js';
                 export {IconMenu};
+            
+                import IconMinhaCarteira from './IconMinhaCarteira.js';
+                export {IconMinhaCarteira};
             
                 import IconMinimize from './IconMinimize.js';
                 export {IconMinimize};
@@ -560,6 +584,9 @@
             
                 import IconPrevius from './IconPrevius.js';
                 export {IconPrevius};
+            
+                import IconProfileInformation from './IconProfileInformation.js';
+                export {IconProfileInformation};
             
                 import IconProfile from './IconProfile.js';
                 export {IconProfile};
@@ -701,6 +728,9 @@
             
                 import IconTrash from './IconTrash.js';
                 export {IconTrash};
+            
+                import IconUp from './IconUp.js';
+                export {IconUp};
             
                 import IconUpload from './IconUpload.js';
                 export {IconUpload};
