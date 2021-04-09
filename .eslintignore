@@ -1,1 +1,3 @@
 lib
+src/components
+scripts/generate.js

@@ -2,6 +2,11 @@
 
 Esse repositorio foi criado com o proposito de substituir temporariamente ou definitivo o processo de subir icones no app do tc.
 
+# Comunicado
+
+Esse repositorio está sendo descontinuado, dentro de algumas semanas não será mais possivel receber atualização apartir dele.
+Novo Repositorio: https://github.com/tradersclub/TCIconSystem
+
 ## Utilizando
 
 1- Instale a biblioteca e seus dependencia:
@@ -12,6 +17,29 @@ yarn: yarn add https://github.com/tradersclub/TCIcons.git#v0.1.0 (Olhar no repo 
 
 npm: npm install https://github.com/tradersclub/TCIcons.git#v0.1.0 (Olhar no repo a ultima tag)
 ```
+
+Ex.: Importando icone "RadioMic":
+
+```
+import {IconRadioMic} from '@tradersclub/tc-svg/lib/components';
+
+...
+
+ComponentReact = () => {
+  
+  ...
+
+  return (
+    <IconRadioMic
+      color="rgba(255, 255, 255, 0.4)"
+      size="28"
+    />
+  )
+}
+
+export default ComponentReact;
+```
+
 ### Install - React-Native
 ```
 yarn: yarn add react-native-svg react-native-svg-transformer babel-plugin-inline-import
