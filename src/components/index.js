@@ -750,6 +750,9 @@
                 import IconValuation from './IconValuation.js';
                 export {IconValuation};
             
+                import IconVideoCam from './IconVideoCam.js';
+                export {IconVideoCam};
+            
                 import IconVideo from './IconVideo.js';
                 export {IconVideo};
             
