@@ -561,6 +561,9 @@
                 import IconPercentage from './IconPercentage.js';
                 export {IconPercentage};
             
+                import IconPhoneRotate from './IconPhoneRotate.js';
+                export {IconPhoneRotate};
+            
                 import IconPin from './IconPin.js';
                 export {IconPin};
             
